@@ -1,0 +1,230 @@
+body {
+         font-size:80%;
+         background-image:url(http://lulzenterprises.org/css/images/ravehellbg.gif);
+         color:#990000;
+         font-family: Trebuchet MS;
+}
+a       {
+        background:inherit;
+        color:#0000FF;
+        text-decoration:none;
+}
+a:hover       {
+        background:inherit;
+        color:#FF0000;
+        text-decoration:none;
+}
+.adminbar {
+        text-align:right;
+        background:inherit;
+        clear:both;
+        float:right;
+}
+.logo {
+        clear:both;
+        text-align:center;
+        background:inherit;
+        font-size:24pt;
+        color:#990000;
+        width:100%;
+}
+.theader {
+        background:#0010E0;
+        color:#FFFFFF;
+        width:100%;
+}
+.postarea {
+        background:inherit;
+	  width: 500px;
+}
+.rules {
+        font-size:10px;
+}
+.postblock {
+        background:#EEAA88;
+        color:#800000;
+        font-weight:800;
+}
+.footer {
+        text-align:center;
+        font-size:12px;
+}
+.passvalid {
+	text-align:center;
+	width:100%;
+}
+.dellist {
+	background:inherit;
+	text-align:center;
+}
+.delbuttons {
+	background:inherit;
+	text-align:center;
+	padding-bottom:4px;
+
+}
+.managehead {
+	background:#0F8FE1;
+	color:#800000;
+	font-size:14px;
+	padding:0px;
+}
+.postlists {
+	background:#FFFFFF;
+	width:100%;
+	padding:0px;
+	color:#800000;
+}
+.row1 {
+	background:#9AD2F6;
+	font-size:12px;
+	color:#800000;
+}
+.row2 {
+        background:#FFFFFF;
+        font-size:12px;
+        color:#800000;
+}
+.unkfunc {
+	background:inert;
+	color:#789922;
+}
+.filesize {
+	font-size:16px;
+	text-decoration:none;
+}
+.filetitle {
+	background:inherit;
+	font-size:18px;
+	color:#CC1105;
+	font-weight:800;
+}
+.postername {
+	background:inherit;
+	font-size:16px;
+	color:#117743;
+	font-weight:800;
+}
+.postername a {
+	background:inherit;
+	font-size:16px;
+	color:#117743;
+	font-weight:800;
+}
+.oldpost {
+        background:inherit;
+        font-size:18px;
+        color:#CC1105;
+        font-weight:800;
+}
+.omittedposts {
+        background:inherit;
+        font-size:18px;
+        color:#070707;
+        font-weight:800;
+}
+.reply {
+         background-image:url(http://legi0n.789chan.org/css/images/ravehellbg.gif);
+	border: 1px solid #000;
+	margin-bottom: 5px;
+}
+.doubledash {
+ 	vertical-align:top;
+	clear:both;
+	float:left;
+}
+.replytitle {
+        background:inherit;
+        font-size:18px;
+        color:#CC1105;
+        font-weight:800;
+}
+.commentpostername {
+        background:inherit;
+        font-size:16px;
+        color:#117743;
+	font-weight:800;
+}
+.commentpostername a {
+        background:inherit;
+        font-size:16px;
+        color:#117743;
+        font-weight:800;
+        text-decoration: none;
+}
+.commentpostername a:hover {
+        background:inherit;
+        font-size:16px;
+        color:#117743;
+        font-weight:800;
+        text-decoration: underline;
+}
+.thumbnailmsg {
+	background:inherit;
+	font-size:9px;
+	color:#800000;
+}
+fieldset {
+	padding: 0px;
+	border: 1px solid #000;
+	background: #F5EFEF;
+}
+legend {
+	margin-left: 5px;
+	margin-top: 3px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	background: #F5EFEF;
+}
+.subject {
+	font-size: 24pt;
+	color: #CC0000;
+}
+.subject a {
+	font-size: 24pt;
+	color: #CC0000;
+	text-decoration: none;
+}
+.subject a:hover {
+	font-size: 24pt;
+	color: #FF0000;
+	text-decoration: none;
+}
+blockquote {
+	margin: 0px;
+}
+.thumb {
+	margin-right: 5px;
+}
+.reply .thumb {
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.navbig {
+	font-size: 120%;
+	font-weight: bold;
+	background: #F5EFEF;
+	border: 1px solid #000;
+}
+.navcat {
+	margin-top: 5px;
+	background: #F5EFEF;
+	border: 1px solid #000;
+	font-weight: bold;
+}
+.navbrd {
+	color: #000;
+	display: block;
+	width: 100%;
+}
+.navbrd:hover {
+	display: block;
+	width: 100%;
+	background: #F5EFEF;
+}
+.newshead {
+	margin-top: 5px;
+	background: #F5EFEF;
+	border: 1px solid #000;
+}	

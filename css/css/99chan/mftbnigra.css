@@ -1,0 +1,131 @@
+html, body {
+background:#000000;
+color:#e6d6da;
+}
+* {
+font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+font-size: 10pt;
+color:#e6d6ca;
+}
+input, textarea {
+background-color: #000000;
+color: #e6d6ca;
+border: 1px solid #cad6e6;
+}
+a {
+background:inherit;
+color:#cad6e6;
+text-decoration: none;
+cursor: pointer;
+}
+a:visited {
+background:inherit;
+color:#e6d6ca;
+}
+a:hover {
+color: #cad6e6;
+background:inherit;
+text-decoration:underline;
+}
+a.quotelink {
+background:inherit;
+color:#e6d6ca;
+}
+.logo {
+clear:both;
+text-align:center;
+background:inherit;
+font-size:24pt;
+color: #cad6e6;
+width:100%;
+font-weight: bold;
+}
+.postarea {
+background:inherit;
+}
+.postblock {
+background: #000000;
+border: 1px solid #cad6e6;
+color: #e6d6ca;
+font-weight: bold;
+padding: 2px 5px 2px 5px;
+}
+.footer {
+text-align:center;
+font-size:12px;
+}
+.unkfunc {
+background:inherit;
+color:#e6d6ca;
+}
+.filesize {
+text-decoration:none;
+}
+.filetitle {
+background:inherit;
+color:#cad6e6;
+font-weight:bold;
+}
+.postername {
+background:inherit;
+font-size:10pt;
+color:#e6d6ca;
+text-decoration:underline;
+}
+.postertrip {
+background:inherit;
+color:#808080;
+}
+.oldpost {
+background:inherit;
+color:#404040;
+font-weight:800;
+}
+.omittedposts {
+background:inherit;
+color:#e6d6ca;
+}
+.reply {
+background:#000000;
+color:#e6d6ca;
+border: 1px solid #000000;
+border-left-color: #cad6e6;
+border-top-color: #cad6e6;
+}
+.replyhl {
+background:#000000;
+color:#e6d6ca;
+}
+.doubledash {
+vertical-align:top;
+clear:both;
+float:left;
+}
+.replytitle {
+background:inherit;
+font-size:18px;
+color:#cad6e6;
+font-weight:800;
+}
+.commentpostername {
+background:inherit;
+font-size:11pt;
+color:#e6d6ca;
+font-weight: bold;
+}
+a.quotejs {
+color:#e6d6ca;
+text-decoration: none;
+}
+a.quotejs:hover {
+font-weight:bold;
+}
+.adminbar {
+text-align: left;
+}
+#watchedthreads {
+background-color: #000000 !important;
+border: 1px solid #cad6e6 !important;
+border-top: 0px none !important;
+}
+.thumb { cursor: pointer; }

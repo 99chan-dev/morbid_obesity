@@ -1,0 +1,149 @@
+/*
+	Mikuchong theme by Boku and riipah.
+	Feel free to use as long as this notice is on here. Enjoy~!
+*/
+
+@namespace url(http://www.w3.org/1999/xhtml);
+html, body {
+    font-family: "Verdana"; 
+    font-size: 10pt;
+}
+.logo {
+    color:#8563aa;
+    text-align: center;
+    clear: both;
+    width: 100%;
+}
+
+body {
+    background-image:url(/css/images/silhouette_gradient.png);
+    background-color: rgb(240, 255, 255);
+    background-position:100% 15%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.doubledash {
+    opacity: 0;
+}
+blockquote {
+    max-width: 700px;
+}
+
+hr {
+	color: transparent;
+	opacity: 0;
+}
+a {
+    color:#2f4b60;
+}
+a:visited {
+    font-style: italic
+}
+a:hover {
+    color: #5a7f91;
+}
+.unkfunc {
+    color:#00a0c9;
+}
+.filetitle, .replytitle {
+    color:#5a7f91;
+}
+.postername {
+    color:#259f73;
+    font-weight:900;
+    font-size: 8.5pt;
+}
+.commentpostername {
+    color:#00746b;
+    font-weight:900;
+    font-size: 10pt;
+}
+.postertrip {
+    color:#00746b;
+}
+.reply {
+    background-color: #7aa6d9;
+    padding: 0px 1px 0px 3px;
+}
+td.reply,.replyhl  {
+    border: 1px;
+    max-width:1700px;
+    background-color: #C9CBCC;
+	border: 1px solid #C1C1C1;
+	border-radius: 0px 20px;
+    -moz-border-radius: 0px 20px;
+    padding: 0px 10px 8px 0px;
+    color: #000000; 
+}
+
+td.reply:hover {
+    background-color: #d2d4d6;
+}
+td.replyhl:hover {
+    background-color: #d2d4d6;
+}
+td.highlight {
+    background-color: #E5E5E5;
+	border: 1px solid #C1C1C1;
+	border-radius: 0px 20px;
+	-moz-border-radius: 0px 20px;
+}
+
+.reflinkpreview {
+	z-index: 1;
+}
+
+img[md5] {
+    height: auto;
+    width: auto;
+}
+img[md5]:hover {
+    outline: 1px;
+    outline-color: light blue;
+    outline-style: dashed;
+}
+
+#sddm
+{margin: 0;
+padding: 0;
+z-index: 30}
+#sddm li
+{margin: 0;
+padding: 0;
+list-style: none;
+float: left;
+font: bold 11px arial}
+#sddm li a
+{display: block;
+margin: 0 1px 0 0;
+padding: 4px 10px;
+width: 90px;
+background: #D8FFD8;
+border: 1px solid #B7FFEF;
+color: #2E7577;
+text-align: center;
+text-decoration: none}
+#sddm li a:hover
+{background: #ADFFAE}
+#sddm div
+{position: absolute;
+visibility: hidden;
+margin: 0;
+padding: 0;
+background: #E5FFF8;
+border: 1px solid #9BFFE6}
+#sddm div a
+{position: relative;
+display: block;
+margin: 0;
+padding: 5px 10px;
+width: auto;
+white-space: nowrap;
+text-align: left;
+text-decoration: none;
+background: #E5FFF8;
+color: #2875DE;
+font: 11px arial}
+#sddm div a:hover
+{background: #49A3FF;
+color: #FFF}

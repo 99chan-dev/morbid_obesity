@@ -1,0 +1,361 @@
+html, body {
+	background:#FFFFEE;
+	color:#800000;
+}
+a {
+	color:#0000EE;
+}
+a:hover {
+	color:#DD0000;
+}
+.adminbar {
+	text-align:right;
+	clear:both;
+	float:right;
+}
+.logo {
+	clear:both;
+	text-align:center;
+	font-size:2em;
+	color:#800000;
+	width:100%;
+}
+.theader {
+	background:#E04000;
+	text-align:center;
+	padding:2px;
+	color:#FFFFFF;
+	font-weight:800;
+	width:100%;
+}
+.postarea {
+}
+.rules {
+	font-size:0.7em;
+	font-family:sans-serif;
+}
+.postblock {
+	background:#EEAA88;
+	color:#800000;
+	font-weight:800;
+}
+.footer {
+	text-align:center;
+	font-size:10px;
+	font-family:serif;
+}
+.passvalid {
+	background:#EEAA88;
+	text-align:center;
+	width:100%;
+	color:#ffffff;
+}
+.dellist {
+	font-weight: 800;
+	text-align:center;
+}
+.delbuttons {
+	text-align:center;
+	padding-bottom:4px;
+
+}
+.managehead {
+	background:#AAAA66;
+	color:#400000;
+	padding:0px;
+}
+.postlists {
+	background:#FFFFFF;
+	width:100%;
+	padding:0px;
+	color:#800000;
+}
+.row1 {
+	background:#EEEECC;
+	color:#800000;
+}
+.row2 {
+	background:#DDDDAA;
+	color:#800000;
+}
+.unkfunc {
+	background:inherit;
+	color:#789922;
+}
+.filesize {
+	text-decoration:none;
+}
+.filetitle {
+	background:inherit;
+	font-size:1.2em;
+	color:#CC1105;
+	font-weight:800;
+}
+.postername {
+	color:#117743;
+	font-weight:800;
+}
+.postertrip {
+	color:#228854;
+}
+.oldpost {
+	color:#CC1105;
+	font-weight:800;
+}
+.omittedposts {
+	color:#707070;
+}
+.reply {
+	background:#F0E0D6;
+	color:#800000;
+}
+.doubledash {
+ 	vertical-align:top;
+	clear:both;
+	float:left;
+}
+.replytitle {
+	font-size: 1.2em;
+	color:#CC1105;
+	font-weight:800;
+}
+.commentpostername {
+	color:#117743;
+	font-weight:800;
+}
+.thumbnailmsg {
+	font-size: small;
+	color:#800000;
+}
+
+
+
+.abbrev {
+	color:#707070;
+}
+.highlight {
+	background:#F0E0D6;
+	color:#800000;
+	border: 2px dashed #EEAA88;
+}
+
+/* Desuchan Page Header */
+div.page_header, div#futaba_style_header {margin-bottom:0.5em}
+div.page_header {font-family: sans-serif; font-size:75%}
+div#futaba_style_header {font-size:85%}
+div.page_header #menu_title {display:inline;float:left;padding-right:3em;padding-left:3px}
+div.page_header #menu_title a:hover {background:inherit;color:red}
+div.page_header a, div#futaba_style_header a {color: #000066;text-decoration: none}
+div.page_header a:hover, div#futaba_style_header a:hover {color: #000000; background: #FFF0CF}
+div.page_header ul ul {display: none; background: #F0E0D6}
+div.page_header ul {margin:0; padding:0; list-style:none}
+div.page_header ul li {float:left; width:13em; text-align:left; background: #F0E0D6}
+div.page_header ul.show, div.page_header ul li:hover ul {display: block; position: absolute; width:13em; z-index:1000}
+div.page_header ul li {display: block; background: #F0E0D6}
+div.page_header li a {display: block }
+div.page_header ul li {font-weight: 800; text-align: left; padding-left:5px}
+div.page_header ul li ul {border:1px solid #000000;margin-left:-5px;padding-right:5px}
+div.page_header ul li ul li {font-weight: normal; text-align:left; position:relative}
+div.page_header li:hover { background: #FFF0CF; }
+
+/* ------------- Custom CSS -------------- */
+#delform hr {
+    background-color: rgba(128,0,127,0.3);
+    border-radius: 15px;
+    box-shadow: 0px -20px 25px rgba(0,0,0,0.3) inset, 0px 0px 6px rgba(0,0,0,0.5) inset, 0px 5px 1px rgba(64,0,64,0.4);
+    height: 50px;
+    margin-top: 200px;
+}
+
+#postform table {
+    margin-top: 0px;
+    margin-bottom: -190px;
+}
+
+#t4085 blockquote ul {
+    margin-left: 0px;
+}
+
+.postblock {
+    background-color: #8066AA;
+    color: white;
+    padding-left: 5px;
+    text-shadow: 0px 0px 5px #402266;
+    width: 70px;
+}
+
+.reply {
+    background-color: #E0DDEE;
+    background-image: url('http://i.imgur.com/Nqu8L.jpg');
+    border-radius: 8px;
+    box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.3),
+    0px 5px 10px -2px rgba(0,0,0,0.4),
+    0px -5px 12px -4px rgba(0,0,0,0.7) inset,
+    0px 0px 2px rgba(0,0,0,0.4) inset,
+    0px 0px 2px rgba(0,0,0,1);
+    color: #7a187a;
+    margin-top: 30px;
+    padding: 10px;
+    text-shadow: 0px 0px 1px rgba(125,0,125,0.2);
+    width: 100%
+;
+}
+
+a {
+    text-decoration: none;
+}
+
+blockquote ul li {
+    text-shadow: 0px 0px 0px #402266;
+}
+
+blockquote.unkfunc {
+    background-image: none;
+    border: none;
+    color: transparent;
+    text-shadow: 0px -1px 1px rgba(0,86,0,1), 0px -1px 1px rgba(0,256,0,1);
+}
+
+body {
+    background-color: #FFEEFF
+;
+}
+
+body.replypage hr {
+    margin-top: 210px;
+}
+
+div ul li {
+    background-color: #E0DDEE;
+    color: #884444;
+    text-shadow: 0px 0px 1px #622;
+}
+
+div.reply {
+    display: none;
+}
+
+div.rules ul li {
+    background-color: #E0DDEE;
+    color: #884444;
+    text-shadow: 0px 0px 1px #622;
+}
+
+hr {
+    background-color: #665588;
+    border: 0px;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+html body hr {
+    margin-top: 210px;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888888;
+    margin-top: 10px;
+}
+
+img.thumb {
+    background-color: #000000;
+    box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.3),
+    0px 5px 10px -2px rgba(0,0,0,0.4),
+    0px 0px 2px rgba(0,0,0,1);
+}
+
+li a {
+    background-color: none;
+    color: white;
+    padding-left: 5px;
+    text-shadow: 0px 0px 5px #402266;
+}
+
+span.li {
+    background-color: #8c65c7;
+}
+
+span.reflink span a {
+    background-color: rgba(128,0,128,0.1);
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.8);
+    margin: 1px;
+    padding: 2px;
+}
+
+table {
+    margin-bottom: -200px;
+    margin-top: 220px;
+}
+
+table.userdelete {
+    margin-top: 25px;
+}
+
+td.doubledash {
+    border-left-color: #913f91;
+    border-style: solid;
+    border-width: 15px;
+    color: transparent;
+    height: 0px;
+    margin-left: -17px;
+    margin-right: -15px;
+    margin-top: 6px;
+    padding: 0;
+    width: 0px;
+}
+
+td.reply blockquote {
+    background-image: -webkit-linear-gradient(left, rgba(64,0,64,0.2) 20%, rgba(128,0,128,0.1) 100%);
+    border-bottom-width: 1px;
+    border-color: rgba(128,0,128,0.5);
+    border-left-width: 1px;
+    border-radius: 6px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    margin-right: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+td.reply blockquote.unkfunc {
+    background-image: none;
+    border: none;
+}
+
+td.reply label {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.8);
+    margin: 1px;
+    padding: 2px;
+}
+
+ul li a {
+    background-color: #7c67b5;
+}
+
+ul.hide li {
+    background-color: #8c65c7;
+}
+
+div.logo {
+    margin-bottom: -170px;
+}
+
+#delform {
+    background-color: #F6DDFF;
+    background-image: url('http://i.imgur.com/bvzjC.jpg');
+    border-color: #913f91;
+    border-left-width: 4px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.8),0px 0px 2px rgba(0,0,0,0.8);
+    padding: 15px;
+    margin-left: 0;
+    width: 900px;
+}

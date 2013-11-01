@@ -1,0 +1,79 @@
+body {
+	font-family: sans-serif;
+	font-size: 75%;
+	background: #000;
+	color: #a0a0a0;
+	margin: 0;
+	width: 90%;
+}
+
+a {
+	color: #0ff;
+	}
+
+h2 {
+	margin-bottom: 0px;
+	background: #202020;
+}
+
+h2 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h1, h3, .menu {
+	font-family: Verdana,Tahoma,sans-serif;
+	padding: 0.314mm;
+}
+
+h1 {
+	margin: 0;
+	color: #0f0;
+	text-align: center;
+	margin-top: 1em;
+}
+
+h3 {
+	margin: 0;
+	color: #0f0;
+	text-align: center;
+	font-weight: normal;
+	font-size: medium;
+}
+
+.menu {
+	margin-top: 1em;
+	text-align: center;
+}
+
+.content {
+	margin-left: 3em;
+	background: #101010;
+	border: 1px solid #202020;
+	border-top: 0px;
+}
+
+.newssub {
+	position: absolute;
+}
+
+.permalink {
+	text-align: right;
+	display: block;
+}
+
+.permalink a {
+	color: #0ff;
+	text-decoration: none;
+}
+/*h1 { font-size: 150% }*/
+/*h2 { font-size: 100%; margin-top: 1em }
+.hl {
+	font-style: italic;
+}
+.plus { float: right; font-size: 8px; font-weight: normal; padding: 1px 4px 2px 4px; margin: 0px 0px; background: #eb9; color: #000; border: 1px solid #da8; cursor: hand; cursor: pointer }
+.plus:hover { background: #da8; border: 1px solid #c97 }
+ul { list-style: none; padding-left: 0px; margin: 0px }
+li { margin: 0px }
+li:hover { background: #fec; }
+li a { display: block; width: 100%; }/*

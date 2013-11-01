@@ -1,0 +1,1091 @@
+/* lastmodtime is [Thu, 04 Jul 2013 10:40:13 GMT]  */  
+.postboxtop {display: none;}
+.fullembed {display: block;}
+.textembed {display: none;}
+body {
+margin: 0;
+padding: 8px;
+	margin-bottom: auto;
+}
+
+blockquote blockquote {
+	margin-left: 0em;
+}
+
+form {
+	margin-bottom: 0px;
+}
+
+form .trap {
+display:none;
+}
+
+.postarea {
+	text-align: center;
+}
+
+.postarea table {
+	margin: 0px auto;
+	text-align: left;
+}
+
+.thumb {
+border: none;
+	float: left;
+margin: 2px 20px;
+}
+
+.mthumb {
+border: none;
+	float: left;
+margin: 2px 20px;
+}
+
+
+.nothumb {
+	float: left;
+background: #eee;
+border: 2px dashed #aaa;
+	text-align: center;
+margin: 2px 20px;
+padding: 1em 0.5em 1em 0.5em;
+}
+
+.reply blockquote, blockquote :last-child {
+	margin-bottom: 0em;
+}
+
+.reflink a {
+color: inherit;
+	text-decoration: none;
+}
+
+.reflink {
+	float: left;
+position: relative;
+left: 2px;
+top: 2px;
+}
+
+.reflink a:hover{
+color: #800000;
+}
+
+
+
+
+.userdelete {
+	float: right;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.replypage .replylink {
+display: none;
+}
+
+.pagelist {
+	max-width: 600px;
+}
+
+.admin {
+color: #800080;
+	font-weight: normal;
+}
+
+.mod {
+color: #FF0000;
+	font-weight: normal;
+}
+
+.vip {
+color: #336600;
+	font-weight: normal;
+}
+
+
+.spoiler {
+color: black;
+	background-color: black;
+}
+
+.extrabtns {
+	vertical-align: bottom;
+}
+
+.mthumb {
+	border: none;
+	display: none;
+	float: left;
+	margin: 2px 20px;
+}
+
+
+.tthumb {
+	border: none;
+	display: none;
+	float: left;
+	margin: 2px 20px;
+}
+
+.athumb {
+	border: none;
+	display: none;
+	float: left;
+	margin: 2px 20px;
+}
+
+
+
+.subjectspacer {
+	float: left;
+	#   clear: none;
+	#	display: none;
+	#height: 0px;
+width:  200px;
+}
+
+
+.athumb {
+display: none;
+}
+.tthumb {
+display: none;
+}
+.mthumb {
+display: none;
+}
+.thumb {
+display: none;
+}
+
+
+
+	
+	.boardlogoimg {
+	display: block;
+		float:right;
+	position: absolute; 
+	top:2px;
+	right:50px;
+	}
+	.postedlink {
+		font-size: 0.7em; 
+		color: #666666;
+	}
+	div.textmenuarea {
+	position: absolute;
+	top: 50px;
+	left: 30px;
+		float: left;
+	clear: none;
+	width: 700px;
+		z-index: 1;
+		font-size: 0.8em;
+		
+	}
+	
+	.adminbar, .boardinfo { z-index: 300 }
+body {
+	margin: 0;
+	padding: 12px;
+	margin-bottom: auto;
+}
+
+
+.demoted, rankminus {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    transform:  scale(0.5, 0.5);
+		opacity: 0.4;
+		-moz-opacity: 0.4;
+		-webkit-opacity: 0.4;
+  filter:alpha(opacity=40);
+
+}
+
+.demoted img {
+		opacity: 0.4;
+		-moz-opacity: 0.4;
+		-webkit-opacity: 0.4;
+  filter:alpha(opacity=40);
+
+}
+
+.demotedsml, rankminusminus {
+    -webkit-transform: scale(0.25, 0.25);
+    -moz-transform: scale(0.25, 0.25);
+    transform: scale(0.25, 0.25);
+}
+
+.promoted, rankplus {
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    transform:  scale(1.5, 1.5);
+}
+
+.promotedbig, rankplusplus {
+    -webkit-transform: scale(1.75, 1.75);
+    -moz-transform: scale(1.75, 1.75);
+    transform:  scale(1.75, 1.75);
+}
+
+
+#wiremenu {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+
+	width: 150px;
+	border-style: solid solid none solid;
+	border-color: #0e69be;
+	border-size: 1px;
+	border-width: 1px;
+	position: absolute;
+	z-index: 2;
+
+	background-color: #555555;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+	color : #ffffff;
+	border: 1px dotted #000000;
+	font-size: .7em;
+	text-align: left;
+
+	# background: url(http://britfa.gs/img/greySeventy.png) repeat;
+
+}
+#wiremenu li {
+    list-style-type: none;
+	
+}
+#wiremenu li a {
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 12px;
+	text-decoration: none;
+			color: #000000;
+		background: #555555;
+
+	}	
+#wiremenu li a:hover {
+  	height: 12px;
+	  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+
+	text-decoration: bold;
+		color: #555555;
+		background: #000000;
+	}	
+
+#wiremenu li a:link, #wiremenu li a:visited {
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+
+	color: #ffffff;
+	display: block;
+	padding: 2px 0 0 2px;
+	}
+
+
+blockquote blockquote {
+	margin-left: 0em;
+}
+
+form {
+	margin-bottom: 0px;
+}
+
+form .trap {
+	display:none;
+}
+
+.postarea {
+	text-align: center;
+}
+
+.postarea table {
+	margin: 0px auto;
+	text-align: left;
+}
+
+.thumb {
+	border: none;
+	float: left;
+	margin: 2px 10px;
+}
+
+.nothumb {
+	float: left;
+	background: #eee;
+	border: 2px dashed #aaa;
+	text-align: center;
+	margin: 2px 10px;
+	padding: 1em 0.5em 1em 0.5em;
+}
+
+.reply blockquote, blockquote :last-child {
+	margin-bottom: 0em;
+}
+.oldreflink {
+	display: none;
+	}
+	
+.reflink a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.reflink a:hover{
+	color: #800000;
+}
+
+.reply .filesize {
+}
+
+.userdelete {
+	float: right;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.replypage .replylink {
+	display: none;
+}
+
+.pagelist {
+	max-width: 600px;
+}
+
+.admin {
+	color: #800080;
+	font-weight: normal;
+}
+
+.mod {
+	color: #FF0000;
+	font-weight: normal;
+}
+
+.vip {
+	color: #336600;
+	font-weight: normal;
+}
+
+#watchedthreads {
+	position: absolute;
+	background-color: #F0E0D6;
+	border: 1px dotted #EEAA88;
+	border-top: 0px none;
+}
+
+#watchedthreadsdraghandle {
+	text-align: center;
+	font-family: Trebuchet MS;
+	cursor: move;
+}
+
+#watchedthreadlist {
+	padding: 3px;
+	font-size: 0.8em;
+}
+
+#watchedthreadsbuttons {
+	position: absolute;
+	bottom: 3px;
+	left: 3px;
+}
+
+.spoiler {
+	color: black;
+	background-color: black;
+}
+
+.extrabtns {
+	vertical-align: middle;
+	
+}
+
+
+
+html, body {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	font-family: "Trebuchet MS",Trebuchet,serif;
+
+}
+
+.reflinkpreview {
+        position: absolute;
+		z-index: 2;
+        padding: 1px;
+        margin: 2px;
+		background-color: #555555;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-khtml-border-radius: 10px;	
+		border-radius: 10px;
+		color : #ffffff;
+        border: 1px dotted #000000;
+}
+
+textarea {
+        background-color: transparent;
+        color: #ffffff;
+        font-family: "Trebuchet MS",Trebuchet,serif;
+	font-size: 1em;
+		-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+
+}
+
+input.nameinput, input.emailinput, input.subjectinput {
+	background-color: transparent;
+	color: #ffffff;
+        font-family: "Trebuchet MS",Trebuchet,serif;
+        font-size: 1em;
+}
+a {
+	color: #FF6600;
+}
+a:hover {
+	color: #0066FF;
+}
+a.quotelink {
+background:inherit;
+color:#ffffff;
+}
+a.quotejs {
+color:#909090;
+text-decoration: none;
+}
+
+.navbar {
+        font-size: 0.95em;
+}
+.pwpostblock {
+        font-size: 0.7em;
+}
+
+.pwentry {
+        font-size: 0.7em;
+}
+
+
+.adminbar {
+        clear:both;
+        float:right;
+        font-size: .7em;
+	top: 10px;
+	color:#ffffff;
+	position: absolute;
+	right : 20px;
+	text-align: right;
+}
+
+.boardinfo {
+        clear:both;
+        float:right;
+        font-size: .6em;
+	top: 40px;
+	color:#888888;
+	position: relative;
+	right : 150px;
+	text-align: right;
+}
+
+
+.adminbar a {
+        color:#ffffff;
+
+        font-weight: bold;
+}
+
+
+
+.logo {
+	clear:both;
+	text-align:left;
+	font-size:2em;
+	font-weight: bold;
+	color:#FF6600;
+	/*width:100%;*/
+}
+
+.boarddescription {
+        clear:both;
+        text-align:left;
+        font-size:2em;
+        font-weight: bold;
+        color:#FF6600;
+		left: 5px;
+		position:relative;
+}
+
+
+
+.postarea {
+        background: url(http://britfa.gs/img/greySeventy.png) repeat;
+		-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+border: 1px solid #eeeeee;
+
+}
+.rules {
+	font-size:0.5em;
+}
+.postblock {
+	background:transparent;
+	color:#ffffff;
+	font-weight:bold;
+
+}
+.logo img {
+	position:fixed;
+	bottom:50px;
+	right:10px;
+}
+.footer {
+	text-align:center;
+	font-size:12px;
+	font-family:serif;
+	margin: 2em 0 0 0;
+}
+.dellist {
+	font-weight: bold;
+	text-align:center;
+}
+.delbuttons {
+	text-align:center;
+}
+.managehead {
+	background:#DDDDDD;
+	color:#002244;
+	padding:0px;
+}
+.postlists {
+	background:#FFFFFF;
+	width:100%;
+	padding:0px;
+	color:#800000;
+}
+.row1 {
+	background:#DDDDDD;
+	color:#002244;
+}
+.row2 {
+	background:#CCCCCC;
+	color:#002244;
+}
+.unkfunc {
+	background:inherit;
+	color:#789922;
+}
+.reflink {
+	float: left;
+	top: 2px;
+	left: 2px;
+	display: block;
+	font-size: 0.9em;
+	color: #9d9d9d;
+	text-align: right;
+#	font-weight: bold;
+	-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+	padding: 2px;
+	border: 1px dotted #9d9d9d;
+
+}
+
+.reflink a:hover {
+	background-color: #999999;
+}
+
+.filesize {
+	text-decoration:none;
+	color: #666666;
+	font-size: .8em;
+	width: 80px;
+	height: 90%;
+}
+
+
+.postertrip {
+	color:#FF3300;
+}
+.oldpost {
+	color:#CC1105;
+	font-weight:bold;
+}
+.omittedposts {
+	color:#AAAAAA;
+}
+
+.replymode {
+
+	top: 50px;
+	border: none;
+}
+	
+	
+.reply {
+	border-style: none;
+	background:#444444;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+
+	text-align: justify;
+	width: 90%;
+	float: none;
+	clear: left;
+
+}
+blockquote {
+	background:transparent;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+	clear: none;
+}
+.doubledash {
+	display: none;
+ 	vertical-align:top;
+	clear:both;
+	float:left;
+}
+.replytitle {
+	font-size: 1.2em;
+	color:#002244;
+	font-weight:bold;
+}
+.commentpostername {
+	color:#004A99;
+	font-weight:800;
+}
+table {
+	border-style: none;
+}
+table td {
+	border-style: none;
+}
+.nothumb {
+	background-color: #FFFFFF;
+	border-style: dotted;
+}
+
+.abbrev {
+	color:#666666;
+}
+.highlight {
+	background:#EEDACB;
+	color:#333333;
+	border: 2px dashed #EE6600;
+}
+div.logoarea {
+	float: right;
+	position: fixed;
+	text-align: right;
+	top: 10px;
+	right: 10px;
+	z-index: 1;
+}
+
+div.menuarea {
+
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	float: left;
+	clear: none;
+	width: 360px;
+	z-index: 1;
+
+}
+.extrabtns {
+		float: left;
+		top: 30px;
+		right: 300px;
+			text-align: right;
+
+}
+
+div.postboxtop {
+	display: none;
+	width: 600px;
+	height: 240px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+
+	visibility: visible;
+	overflow: visible;
+	z-index: 1;
+	clear: none;
+	padding: 10px;
+	top: 90px;
+	position: fixed;
+	float: right;
+	right: 20px;
+	background: url(http://britfa.gs/img/greyFifty.png) repeat;
+			
+	border: 1px dashed #eeeeee;
+
+}
+
+div.thread {
+	float: none;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+	border: 1px dotted #444444;
+	opacity: 1;
+		
+	margin-right: 5px;
+	margin-left: 5px;
+	align: center;
+	
+}
+
+
+.postmenu {
+	float: right;
+	clear: right;
+}
+.postthreadlinks {
+	float: right;
+}
+
+.originalpost {
+	background:transparent;
+	border: dotted 1px #3F3F3F;
+	padding: 0.2em;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+	text-align: justify;
+	float: none;
+	clear: left;
+}
+.originalpost blockquote {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+	clear: none;
+
+}
+
+.deletecheck {
+	right: 5px;
+	left: 10px;
+	visibility: visible;
+	clear: both;
+	float: right;
+}
+
+.authorbox a {
+	text-decoration: none;
+}
+
+
+.authorbox {
+	float: right;
+	right: 1px;
+	padding: 2px;
+	text-align: right;
+	top: 1px;
+	width: 120px;
+	clear: left;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+
+	border: 0.5px dotted #444444;
+	position: relative;
+
+}
+
+.posterdate {
+	font-size: 0.6em;
+	text-align: right;
+	float: none;
+	clear: none;
+}
+.postertime {
+	font-size: 0.6em;
+	text-align: right;
+	float: none;
+	clear: none;
+}
+
+
+.posterID {
+	text-align: right;
+	font-size: 0.7em;
+}
+.postersage {
+	color:#FF0000;
+	font-size: 0.9em;
+	float: none;
+	clear: none;
+	text-align: right;
+}
+.postername {
+	color:#0066FF;
+	font-size: 0.9em;
+	float: none;
+	clear: none;
+	text-align: right;
+}
+
+span.filebuttons {
+	float: left;
+}
+
+img.fileplus {
+	clear: none;
+	position: relative;
+}
+
+img.fileminus {
+	float: none;
+	clear: left;
+	position: relative;
+}
+
+img.fileinfo {
+	position: relative;
+}
+
+img.recycler {
+	position: relative;
+}
+
+.hashtag {
+	color:#9f9f9f;
+	font-size: 0.6em;
+	text-align: right;
+	        padding: 2px;
+        margin: 3px;
+	position: relative;
+
+}
+.hashtagbig {
+        color:#9f9f9f;
+        font-size: 0.9em;
+        text-align: right;
+                padding: 2px;
+        margin: 3px;
+        position: relative;
+
+}
+
+
+
+.fileinfo {
+
+font-size: 0.8em; 
+color: #555555;
+}
+
+
+.infolinkpreview {
+        position: absolute;
+		z-index: 2;
+        padding: 2px;
+        margin: 3px;
+		background-color: #555555;
+		-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	border-radius: 10px;
+	color : #ffffff;
+        border: 1px dotted #000000;
+}
+
+.menupreview {
+        position: fixed;
+		z-index: 2;
+        padding: 1px;
+        margin: 2px;
+		background-color: #555555;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-khtml-border-radius: 10px;	
+		border-radius: 10px;
+		color : #ffffff;
+        border: 1px dotted #000000;
+}
+
+
+html, body {background-color: #333333;color: #EEEEEE; 	text-align: justify; }
+.oldauthorline {display: none;}
+.authorbox {display: block;}
+.oldfiletitle {display: none;}
+.logoarea {display: none; top: 2px; }
+.postboxtop {display: none;}
+.boardinfo {display: block;}
+.postboxtext {font-size: 1.5em;}
+.deletecheck {display: none;}
+.ludditetopbar {display: none;}
+.userdelete {display: none;}
+.recyclepost {display: inline; float:none;}
+.threadlinktext {font-size: 0.7em; color: #555555; }
+	
+	.boarddescription {
+	clear:both;
+        text-align:left;
+        font-size:2em;
+        font-weight: bold;
+	color:#FF6600;
+	left: 30px;
+	top: 150px;
+	width: 300px;
+	position:relative;
+	}
+	.boardinfo {
+	display: inline;
+		font-size: 0.5em;
+	color:#666666;
+	position: absolute;
+		float: left;
+	direction: ltr;
+	right: 340px;
+	top: 20px;
+	}
+	
+	.postersage {
+	color:#FF0000;
+		font-weight:bold;
+		font-size: 0.8em;		float: none;
+		clear: none;
+		text-align: right;
+	}
+	.postername {
+	color:#0066FF;
+		font-weight:bold;
+		font-size: 0.8em;		float: none;
+		clear: none;
+		text-align: right;
+
+	}
+	
+	
+	
+	
+	
+	div.threadz {
+		margin-top: 280px;
+		margin-right: 30px;
+		margin-left: 30px;
+		
+	opacity: 1;
+	}
+	
+	
+	.originalpost {
+
+	width: 40%;
+	}
+	.filetitle {
+	color: green;
+
+		font-size: 1.1em;		font-weight: bold;
+	padding: 10px;
+	margin: 5px;
+	}
+	
+	.reply {
+	}
+		.athumbframe {
+		display: none;
+		}
+		.tthumb {
+			display: none;
+
+		display: none;
+		}
+		.mthumb {
+		display: none;
+		}
+		.thumb {
+                display: block;
+               		float: left;
+
+		}
+		
+.authorbox {
+	float: right;
+clear: none;
+	text-align: right;	
+	right: 0px;
+	padding: 3px;
+	top: 0px;
+	width: 120px;
+	
+	
+	position: relative;
+
+}
+
+
+		.posterdate {
+			font-size: 0.6em;					
+			text-align: right;
+							#				float: left;
+			clear: down;
+							
+			clear: none;
+		}
+		
+
+
+.threadlinks {
+	float: right;
+}
+
+
+.boardthreadlinks {
+	float: right;
+}
+
+
+
+blockquote {
+
+	background:transparent;
+	font-size: 1.0em;
+	float:none;
+}
+
+span.atext,pre {
+	font:0.3em, Courier, "Courier New", mono;
+	
+background: transparent;
+			color: #FFFFFF;
+border: none;
+	
+}
+
+
+
+		.menuarea {display: none;}
+.textmenuarea {display: block;}
+
+

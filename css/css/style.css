@@ -1,0 +1,60 @@
+/*------------------------------------*\
+  MAIN
+\*------------------------------------*/
+html{
+  font-family:Calibri, Arial, Verdana, sans-serif;
+  background:url(../img/css/snow.png) bottom left repeat-x fixed #222;
+  color:#fff;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+  height:101%;
+}
+body{
+  width:940px;
+  padding:10px;
+  margin:0 auto;
+}
+#wrapper{
+  position:relative;
+  z-index:5; /* Bring the content over the snowflakes */
+}
+/*------------------------------------*\
+  SNOWFLAKES
+\*------------------------------------*/
+/* Set up a blank canvas in which to house the snowflakes */
+#snow{
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  overflow:hidden;
+}
+.snowflake{
+  text-shadow:none;
+  position:absolute;
+  top:0;
+  /* Set up the animation */
+  -webkit-animation-name:snowflake-animation;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+}
+/* Fill the empty span with a snowflake-like asterisk */
+.snowflake:before{
+  content:"*";
+}
+@-webkit-keyframes snowflake-animation{
+  /* Start at the top */
+  from{
+    top:0%;
+    -webkit-transform:rotate(0deg);
+  }
+  /* Rotate by 360 degrees up until the half way point */
+  50%{
+    -webkit-transform:rotate(360deg);
+  }
+  /* Animate to the bottom whilst rotating back to zero */
+  to{
+    top:100%;
+    -webkit-transform:rotate(0deg);
+  }
+}

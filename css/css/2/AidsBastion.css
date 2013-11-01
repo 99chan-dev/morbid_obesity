@@ -1,0 +1,142 @@
+html, body {
+	font-size:9pt;
+	background:#0f384f;
+	color:#C6E6F4;
+}
+* {
+	font-family: "Verdana, Tahoma, Arial, sans-serif";
+	font-size: 9pt;
+}
+input, textarea {
+	background-color: #1F607F;
+	border: 1px solid #0F3740;
+        color:#C6E6F4;
+        font-size:9pt;
+}
+a {
+	background:inherit;
+	color:#ffffff;
+}
+a:visited {
+	background:inherit;
+	color:#ffffff;
+}
+a:hover {
+	color:#238ABC;
+	background:inherit;
+}
+a.quotelink {
+	background:inherit;
+	color:#ffffff;
+}
+.logo {
+	clear:both;
+	text-align:center;
+	background:inherit;
+	font-size:24pt;
+	color:#C6E6F4;
+	width:100%;
+}
+.postarea {
+	background:#174f65;
+        width:70%;
+        margin-right: auto;
+        margin-left: auto;
+}
+.postblock {
+	background: #0F384F;
+	border: 1px solid #0F3740;
+	color: C6E6F4;
+        text-align: center;
+	font-weight: bold;
+	padding: 2px 5px 2px 5px;
+}
+.footer {
+	text-align:center;
+	font-size:12px;
+}
+.unkfunc {
+	background:inherit;
+	color:#C6E6F4;
+}
+.filesize {
+	text-decoration:none;
+}
+.filetitle {
+	background:inherit;
+	color:#C6E6F4;
+	font-weight:800;
+}
+.postername {
+	background:inherit;
+	font-size:9pt;
+	color:#C0F7EF;
+	font-weight: bold;
+}
+.postertrip {
+	background:inherit;
+	color:#C6E6F4;
+}
+.oldpost {
+	background:inherit;
+	color:#C6E6F4;
+	font-weight:800;
+}
+.omittedposts {
+	background:inherit;
+	color:#C0F7EF;
+}
+.reply {
+	background:#207790;
+	color:#C6E6F4;
+	border:1px solid #0F3740;
+}
+.replyhl {
+	background:#207790;
+	color:#C6E6F4;
+}
+
+.doubledash {
+ 	vertical-align:top;
+	clear:both;
+	float:left;
+}
+.replytitle {
+	background:inherit;
+	font-size:18px;
+	color:#FFFFFF;
+	font-weight:800;
+}
+.commentpostername {
+	background:inherit;
+	font-size:11pt;
+	color:#C0F7EF;
+	font-weight: bold;
+}
+a.quotejs {
+	color:#ffffff;
+	text-decoration: none;
+}
+a.quotejs:hover {
+	font-weight:bold;
+}
+
+.adminbar {
+	text-align: left;
+}
+
+hr {
+	border-style: solid none none none;
+	border-width: 1px;
+	border-color: #0F3740;
+}
+
+#watchedthreads {
+	background-color: #174F65 !important;
+  	border: 1px solid #0F3740 !important;
+  	border-top: 0px none !important;
+}
+
+.reflinkpreview {
+	background-color: #174F65 !important;
+}

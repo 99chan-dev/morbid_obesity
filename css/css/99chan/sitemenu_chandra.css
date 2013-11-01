@@ -1,0 +1,76 @@
+//sitemenu_chandra.css
+
+body {
+margin: 8px; background-color: #000000;
+font-family: "Trebuchet MS",Trebuchet,sans-serif;
+}
+
+a {
+text-decoration: none;
+color: #ddcd9c;
+font-family: "Ariel",Trebuchet,sans-serif;
+font-size: 100%;
+}
+
+h1, h2 {
+background-image:url(stars.gif);
+background-position:top left;
+background-repeat:repeat;
+background-attachment:fixed;
+border: dotted 2px #131313;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+text-align: left;}
+
+h1 {
+margin-top: 0px;
+font-family: "Trebuchet MS",Trebuchet,sans-serif;
+font-size: 240%;
+color: #d6d7fa;
+}
+
+h2 {
+font-size: 120%;
+margin-top: 1em;
+color: #babbf6;
+}
+
+.plus {
+float: right;
+font-size: 8px;
+font-weight: normal;
+padding: 1px 4px 2px 4px;
+margin: 0px 0px;
+background: #909094;
+color: #000;
+border: 1px dotted #26262a;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+cursor: hand;
+cursor: pointer;
+}
+
+.plus:hover {
+background: #934b11;
+border: 1px dotted #c97;
+}
+
+ul {
+list-style: none;
+padding-left: 0px;
+margin: 0px;
+}
+
+li {
+margin: 0px;
+}
+
+li:hover {
+background: #909094;}
+
+li a {
+
+display: block;
+width: 100%; color: #c7c7cf;}

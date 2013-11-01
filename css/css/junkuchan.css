@@ -1,0 +1,157 @@
+/* Junkuchan shall live on in this stylesheet!
+   The seething mists of the internet shall never take me.
+   2008-20?? */
+
+html, body {
+  font-size:10pt;
+  background:#000000;
+  color:#cccccc;
+}
+* {
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10pt;
+}
+input, textarea {
+  background-color: #404040;
+  border: 1px solid #202020;
+  color: #000000;
+  }
+::-moz-selection{
+	background:#4C304C;
+	color:#fff;
+}
+
+::selection {
+	background:#4C304C;
+	color:#fff;
+}
+a {
+  background:inherit;
+  color: #688794
+}
+a:hover {
+  color:#8080FF;
+  background:inherit;
+}
+a.quotelink {
+  color:#8080FF;
+}
+HR {
+color: #252525;
+background-color: #252525;
+height: 1px;
+border: none;
+}
+.logo {
+  clear:both;
+  text-align:center;
+  background:inherit;
+  font-size:24pt;
+  color:#5C5B7F;
+  width:100%;
+}
+
+.adHeadline {
+  font: bold 8pt Arial;
+  text-decoration: underline;
+  color: #688794;
+}
+.adText {font: normal 8pt Arial;
+  text-decoration: none;
+  color: #CCCCCC;
+}
+
+.postarea {
+  background:inherit;
+}
+.postblock {
+  background: #252525;
+  border: 1px solid #101010;
+  color: #AAAAAA;
+  font-weight: bold;
+  padding: 2px 5px 2px 5px;
+}
+.footer {
+  text-align:center;
+  font-size:12px;
+}
+.unkfunc {
+	background:inherit;
+	color:#789922;
+}
+.filesize {
+	text-decoration:none;
+}
+.filetitle {
+	background:inherit;
+	color: #6461af;
+	font-weight:800;
+}
+.postername {
+  background:inherit;
+  font-size:11pt;
+  color: #4e8680;
+  font-weight: bold;
+}
+.postertrip {
+	background:inherit;
+	color: #248877
+}
+.oldpost {
+  background:inherit;
+  color:#0F0C5D;
+  font-weight:800;
+}
+.omittedposts {
+  background:inherit;
+  color:#808080;
+}
+.reply {
+	background:#202020;
+	color:#cccccc;
+	border:1px solid #101010;
+}
+.replyhl {
+	background: #202020;
+	color: #000000;
+}
+.doubledash {
+ 	vertical-align:top;
+	clear:both;
+	float:left;
+}
+.replytitle {
+	background:inherit;
+	font-size:18px;
+  color:#0F0C5D;
+  font-weight:800;
+}
+.commentpostername {
+  background:inherit;
+  font-size:11pt;
+  color:#117743;
+  font-weight: bold;
+}
+a.quotejs {
+  color:#000000;
+	text-decoration: none;
+}
+a.quotejs:hover {
+  font-weight:bold;
+}
+
+.adminbar {
+  text-align: center;
+}
+.admin {
+	color:#8540AA;
+}
+#watchedthreads {
+	background-color: #000000 !important;
+  	border: 1px solid #202020 !important;
+  	border-top: 0px none !important;
+}
+
+.reflinkpreview {
+	background-color: #000000 !important;
+}

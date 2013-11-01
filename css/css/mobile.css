@@ -1,0 +1,133 @@
+/*Hides shit*/
+img.topad, div.center.middlead, img.middlead, hr, img.bottomad, div#absBotText, img.title, a#globalToggle.button.redButton.mobile.hidden
+{
+        display: none !important;
+}
+/*Formats thread view*/
+div.thread
+{
+        padding: 4px !important;
+        margin: 2px !important;
+        margin-top: 4px !important;
+        margin-bottom: 4px !important;
+        background-color: rgb(255, 255, 255);
+        border: solid;
+        border-color: rgb(200, 200, 200);
+        border-width: 0px;
+        border-bottom-width: 3px;
+}
+/*Formats post info holder*/
+div.post div.postInfoM
+{
+        background-color: rgb(225, 225, 225);
+        border: 0px !important;
+        border-style: solid !important;
+        border-color: rgb(200, 200, 200) !important;
+        border-bottom-width: 1px !important;
+}
+/*Formats OP*/
+div.opContainer
+{
+        border-color: rgb(200, 200, 200) !important;
+        border-width: 0px !important;
+        border-bottom-width: 2px !important;
+        background-color: rgb(255, 255, 255);
+}
+/*Formats posts*/
+div.postLink.mobile
+{
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(200, 200, 200);
+}
+/*Formats replies*/
+div.reply
+{
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(200, 200, 200);
+        border-width: 0px;
+        border-bottom-width: 2px;
+}
+/*Formats the HIDEOUS buttons*/
+.button
+{
+        background-image: none !important;
+        background-color: rgb(200, 200, 200);
+        border-width: 0px;
+        border-bottom-width: 2px;
+        border-color: rgb(190, 190, 190);
+        color: rgb(130, 130, 130) !important;
+}
+/*Formats generals stuff*/
+body
+{
+        background: rgb(230, 230, 230) !important;
+        color: rgb(130, 130, 130);
+}
+/*Formats drop down bar*/
+div#boardNavMobile.mobile
+{
+        background-color: rgb(225, 225, 225);
+        border-color: rgb(200, 200, 200);
+}
+/*Formats header text*/
+div.boardBanner > div.boardTitle, div.boardBanner > div.boardSubtitle
+{
+        font-weight: lighter;
+        color: rgb(160, 160, 160);
+}
+/*Formats button text*/
+.button a:hover, a.button:hover
+{
+        color: rgb(180, 180, 180) !important;
+}
+.button a
+{
+        color: rgb(130, 130, 130) !important;
+}
+div.postLink a
+{
+        color: rgb(130, 130, 130) !important;
+}
+/*X posts omitted*/
+div.postLink span.info
+{
+        color: rgb(130, 130, 130) !important;
+}
+/*Formats post numbers*/
+div.post div.postInfoM span.postNum a, div.postInfo span.postNum a
+{
+        color: rgb(130, 130, 130) !important;
+}
+div.post div.postInfoM span.postNum a:hover
+{
+        color: rgb(180, 180, 180) !important;
+}
+/*Names*/
+div.post div.postInfoM span.nameBlock span.name, div.postInfo span.nameBlock span.name
+{
+        color: rgb(100, 100, 100);
+}
+/*Subjects*/
+div.post div.postInfoM span.subject
+{
+        color: rgb(115, 115, 115);
+}
+/*Post num links*/
+.quoteLink, .quotelink, .deadlink
+{
+        color: rgb(100, 100, 100) !important;
+}
+a:hover
+{
+        color: rgb(180, 180, 180) !important;
+}
+/*Tripfags <3*/
+span.postertrip
+{
+        color: rgb(130, 130, 130) !important;  
+}
+/*General links*/
+a, a:visited
+{
+        color: rgb(115, 115, 115);
+}

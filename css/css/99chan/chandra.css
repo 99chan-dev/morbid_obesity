@@ -1,0 +1,252 @@
+//chandra.css
+
+html {
+background-color: #000000;
+}
+
+body {
+color: #f0f0ff;
+font-family: "Trebuchet MS",Trebuchet,sans-serif;
+background: url(lunreflect.jpg) no-repeat fixed center bottom;
+}
+
+a {
+color: #cecffe;
+}
+a:hover {
+color: #545456;
+}
+.adminbar {
+clear:both;
+float:right;
+font-size: .8em;
+}
+.adminbar a {
+font-weight: bold;
+}
+.logo {
+clear:both;
+text-align:center;
+font-size:3em;
+font-weight: bold;
+color: #babbf6;*/
+}
+.replymode, .passvalid {
+background-image:url(stars.gif);
+background-position:top left;
+background-repeat:repeat;
+background-attachment:fixed;
+text-align:center;
+padding:2px;
+color:#ffffff;
+clear: both;
+font-weight: bold;
+margin-bottom: .5em;
+border: dotted 2px #131313;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+.catalogmode {
+background: #684a99;
+text-align: center;
+padding: 2px;
+color: #979797;
+clear: both;
+font-weight: bold;
+margin-bottom: .5em;
+border: dotted 2px #131313;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.postarea {
+}
+.rules {
+font-size:0.7em;
+}
+.postblock {
+background-image:url(stars.gif);
+background-position:top left;
+background-repeat:repeat;
+background-attachment:fixed;
+color: #ffffff;
+font-weight:bold;
+border: 2px #131313 dotted;
+padding: 0;
+margin: 0;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+}
+.footer {
+text-align:center;
+font-size:12px;
+font-family:serif;
+margin: 2em 0 0 0;
+}
+.dellist {
+font-weight: bold;
+text-align:center;
+}
+.delbuttons {
+text-align:center;
+padding-bottom:4px;
+}
+.managehead {
+background:#979797;
+color:#a4b5fc;
+padding:0px;
+}
+.postlists {
+background:#FFFFFF;
+width:100%;
+padding:0px;
+color: #4e8cdd
+}
+.row1 {
+background:#979797;
+color:#a4b5fc;
+}
+.row2 {
+background:#CCCCCC;
+color:#a4b5fc;
+}
+.unkfunc {
+background:inherit;
+color:#789922;
+}
+.reflink {
+font-size: .8em;
+font-weight: bold;
+}
+.filesize {
+text-decoration:none;
+color: #909094;
+font-size: .8em;
+}
+.filetitle {
+background:inherit;
+font-size:1.2em;
+color:#a4b5fc;
+font-weight:bold;
+}
+.postername {
+color:#cbccff;
+font-weight:bold;
+}
+.postertrip {
+color: #9d9fef
+}
+.oldpost {
+color: #746d7c;
+font-weight:bold;
+}
+.omittedposts {
+color:#7b7eff;
+}
+.reply {
+border: 1px #131313 dotted;
+padding: 0;
+margin: 0;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+color: #f8f8ff;
+background-image:url(stars.gif);
+background-position:top left;
+background-repeat:repeat;
+background-attachment:fixed;
+}
+blockquote {
+margin: .5em .5em .5em 1em;
+}
+blockquote p {
+margin: 0;
+padding: 0;
+}
+.reply blockquote {
+margin: .5em;
+}
+.doubledash {
+display: none;
+vertical-align:top;
+clear:both;
+float:left;
+}
+.replytitle {
+font-size: 1.2em;
+color:#babbf6;
+font-weight:bold;
+}
+.commentpostername {
+color:#684a99;
+font-weight:800;
+}
+.thumbnailmsg {
+font-size: .8em;
+color:#26262a;
+}
+hr {
+border-style: dotted none none none;
+border-width: 1px;
+border-color: #eee3c7;
+}
+table {
+border-style: none;
+}
+table td {
+border-style: none;
+}
+.nothumb {
+background-color: #FFFFFF;
+border-style: dotted;
+margin: .3em .5em;
+}
+
+.abbrev {
+color:#59595b;
+}
+.highlight {
+background:#EEDACB;
+color:#333333;
+border: 2px dotted #EE6600;
+}
+
+#watchedthreads {
+background-image:url(stars.gif);
+background-position:top left;
+background-repeat:repeat;
+background-attachment:fixed;
+border: 2px dotted #131313 !important;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+.hidethread {
+background: transparent url('icons/beige/icons.gif') -32px -16px no-repeat;
+}
+
+.unhidethread {
+background: transparent url('icons/beige/icons.gif') -48px 0px no-repeat;
+}
+
+.watchthread {
+background: transparent url('icons/beige/icons.gif') -32px 0px no-repeat;
+}
+
+.expandthread {
+background: transparent url('icons/beige/icons.gif') 0px -16px no-repeat;
+}
+
+.quickreply {
+background: transparent url('icons/beige/icons.gif') 0px 0px no-repeat;
+}
+
+.hidewatchedthreads {
+background: transparent url('icons/beige/icons.gif') -48px -16px no-repeat;
+}
+
+.refreshwatchedthreads {
+background: transparent url('icons/beige/icons.gif') -16px -16px no-repeat;
+}
+
+.restorewatchedthreads {
+background: transparent url('icons/beige/icons.gif') -16px 0px no-repeat;
+}

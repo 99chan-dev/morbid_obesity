@@ -1,0 +1,285 @@
+html, body {
+	font-size:12pt;
+	background: #000000;
+    background-attachment: fixed;
+	background-image:url('http://www.operatorchan.org/css/images/multicam_darker.jpg');
+	color:#909090;
+}
+
+* {
+font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+font-size: 10pt;
+}
+
+input, textarea {
+background-color: #101010;
+color: #ffffff;
+border: 1px solid #202020;
+}
+
+.unkfunc {
+	background:inherit;
+	color:#7F8A79;
+}
+
+a {
+	background:inherit;
+	color:#ADA187;
+	text-decoration:none;
+	font-family:sans-serif;
+	cursor: pointer;
+}
+
+a:visited {
+	background:inherit;
+	color:#8E735E;
+	text-decoration:none;
+	font-family:sans-serif;
+}
+
+a:hover {
+	color:#7F8A79;
+	background:inherit;
+	font-family:sans-serif;
+	text-decoration:underline;
+}
+
+a.quotelink {
+background:inherit;
+color:#ffffff;
+}
+
+a.quotejs {
+color:#909090;
+text-decoration: none;
+}
+
+a.quotejs:hover {
+font-weight:bold;
+}
+
+.filesize a {
+	text-decoration:underline;
+}
+
+.filesize a:visited {
+	text-decoration:underline;
+}
+
+.adminbar {
+	text-align:right;
+	background:inherit;
+	clear:both;
+	float:right;
+}
+
+.logo {
+	clear:both;
+	text-align:center;
+	background:inherit;
+	font-size:24pt;
+	color:#ffffff;
+	width:100%;
+	font-weight: bold;
+}
+
+.replymode {
+	background:#202020;
+	color:#A0A0A0;
+	width:100%;
+	text-align:center;
+	padding: 3px 5px 3px 5px;
+}
+
+.catalogmode {
+	background: #333333;
+	color:#FFFFFF;
+	width:100%;
+}
+
+.postarea {
+	background:inherit;
+}
+
+.postertrip {
+background:inherit;
+color:#7F8A79;
+}
+
+.rules {
+	/*font-size:0.7em;*/
+	width: 468px;
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+.rules li {
+	margin-left: 1em;
+	/*text-indent: 0em;*/
+}
+
+.postblock {
+	background: #202020;
+	border: 1px solid #303030;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 2px 5px 2px 5px;
+    background-attachment: fixed;
+	background-image:url('http://www.operatorchan.org/css/images/multicam_dark.jpg');
+}
+
+.footer {
+	text-align:center;
+	font-size:12px;
+	font-family:sans-serif;
+}
+
+.passvalid {
+	background:#303030;
+	text-align:center;
+	width:100%;
+	color:#ffffff;
+}
+
+.dellist {
+	background:inherit;
+	text-align:center;
+}
+
+.delbuttons {
+	background:inherit;
+	text-align:center;
+	padding-bottom:4px;
+}
+
+.managehead {
+	background:#D1C18B;
+	color:#000000;
+	font-family:sans-serif;
+	font-size:14px;
+	padding:0px;
+}
+
+.postlists {
+	background:#FFFFFF;
+	width:100%;
+	padding:0px;
+	color:#000000;
+}
+
+.row1 {
+	background:#2E2D2B;
+	font-family:sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+
+.row2 {
+	background:#FFFFFF;
+	font-family:sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+
+.filesize {
+	font-size:12px;
+	font-family:sans-serif;
+	text-decoration:underline;
+	padding-left:3em;
+}
+
+.filetitle {
+	background:inherit;
+	font-size:18px;
+	font-family:serif;
+	color:#7F8A79;
+	font-weight:800;
+}
+
+.postername {
+	background:inherit;
+	font-size:12px;
+	font-family:serif;
+	color:#8E735E;
+	font-weight:800;
+}
+
+.oldpost {
+	background:inherit;
+	font-size:18px;
+	font-family:serif;
+	color:#404040;
+	font-weight:800;
+}
+
+.omittedposts {
+	background:inherit;
+	font-size:18px;
+	font-family:serif;
+	color:#707070;
+	font-weight:800;
+}
+
+.reply {
+	background:#202020;
+	color:#A0A0A0;
+	border:1px solid #101010;
+	font-family:serif;
+    background-attachment: fixed;
+	background-image:url('http://www.operatorchan.org/css/images/multicam_dark.jpg');
+}
+
+.replyhl {
+	background:#000000;
+	color:#707070;
+}
+
+.doubledash {
+	vertical-align:top;
+	clear:both;
+	float:left;
+}
+
+.replytitle {
+	background:inherit;
+	font-size:18px;
+	font-family:serif;
+	color:#000000;
+	font-weight:800;
+}
+
+.commentpostername {
+	background:inherit;
+	font-size:12px;
+	font-family:serif;
+	color:#505050;
+	font-weight:800;
+}
+
+.thumbnailmsg {
+	background:inherit;
+	font-size:9px;
+	font-family:sans-serif;
+	color:#ADA187;
+}
+
+.thumb { 
+	cursor: pointer; 
+}
+
+.watchedthreads {
+	background-color: #000000 !important;
+	border: 1px solid #303030 !important;
+	border-top: 0px none !important;
+}
+
+#watchedthreads {
+	background-color: #000000 !important;
+	border: 1px solid #303030 !important;
+	border-top: 0px none !important;
+}
+
+.reflinkpreview {
+	background-color: #2E2D2B !important;
+	border: 2px solid #A0A0A0 !important;
+}

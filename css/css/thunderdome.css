@@ -1,0 +1,255 @@
+html, body {
+		background-color:#FF66FF;
+		background-image:url(https://99chan.org/css/images/mudkip.png);
+		background-position:top;
+		background-repeat:repeat;
+        color:#000000;			
+		font-family: "Comic Sans MS", "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+        font-size:10pt;	
+}
+	
+a {
+  color:#FFFFFF;
+  text-decoration:none;  
+}
+a:visited {
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a.quotelink {
+}
+
+p {
+	text-align:left;
+	margin-top:2px;
+	margin-bottom: 10px;	
+	padding: 2px;
+	list-style: none;
+}	
+
+h1 {
+	color: #000000;
+	font-family: "Comic Sans MS", "Times New Roman", Helvetica, Arial;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+	margin: 0px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-weight: bold;
+	font-family:"Comic Sans MS", Helvetica, Arial;
+	text-align:center;
+	font-style:italic;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px 0px 0px 4px;
+}	
+
+h3 {
+	font-size: small;
+	font-weight: bold;
+	font-family:"Comic Sans MS", Helvetica, Arial;
+    background-color:#33FF00;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: left;
+	padding: 0px 0px 0px 4px;
+	border-style: solid;
+	border-width: 1px;
+    border: 1px solid #000000;
+}
+
+h4 {
+	font-size: x-small;
+	text-align: left;
+	font-weight: bold;
+	font-family:"Comic Sans MS", Helvetica, Arial;
+    background-color:#33FF00;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px 0px 0px 4px;
+    border: 1px solid #000000;	
+}	
+
+hr {
+        border: none;
+        border-top: 1px solid #000000;
+        height: 0px;
+}
+
+ul {
+	text-align:left;
+	list-style:disc;
+}
+
+li {
+	margin: 0px;
+	padding: 0px 0px 0px 2px;
+	line-height: 1.2em;
+}
+
+code {
+     color:#000000;	
+	 font-family: "Comic Sans MS", "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	 font-size:10pt;
+	 white-space:normal;
+}
+
+.logo {
+  clear:both;
+  text-align:center;
+  
+  font-size:24pt;
+  color:#000000;
+  width:100%;
+}
+
+.postblock {
+  background-color:#33FF00;
+  color:#000000; 
+  border: 1px solid #000000;
+  font-weight: bold;
+  padding: 2px 5px 2px 5px;
+  width:55px;
+}
+
+input, textarea {
+  background-color: #33FF00;
+  color:#000000;  
+  border: 1px solid #000000;
+}
+
+.passvalid {
+	background-color:#33FF00;
+	text-align:center;
+	width:100%;
+	color:#ffffff;
+}
+.managehead {
+	background-color:#33FF00;
+	color:#FFFFFF;		
+}
+.postlists {
+	background-color:#FFFFFF;
+	width:100%;
+	padding:0px;
+	color:#000000;
+}
+.row1 {
+	background-color:#FF66FF;
+	color:#000000;
+}
+.row2 {
+        background-color:#CC66FF;
+        color:#000000;
+}
+.unkfunc {
+	background:inert;
+	color:#800000;
+}
+.filesize {
+	text-decoration:none;
+}
+.filetitle {
+	background-color:inherit;
+	color:#FF0000;
+	font-weight:800;
+}
+.postername {
+  background-color:inherit;
+  font-size:11pt;
+  color:#FFFFFF;
+  font-weight: bold;
+}
+.postertrip {
+	background-color:inherit;
+	color:#FFFFFF;
+}
+.oldpost {
+  background-color:inherit;
+  color:#FF0000;
+  font-weight:800;
+}
+.omittedposts {
+  background-color:inherit;
+  color:#707070;
+}
+.reply {
+  background-color:#CC66FF;			
+  color:#000000;
+  border-style: solid;
+  border-color: #B261DF;
+  border-width: 0px 1px 1px 0px;   
+}
+ 
+.replyhl {
+  background-color: #CC66FF;
+  color:#000000;
+}
+.doubledash {
+ 	vertical-align:top;
+	clear:both;
+	float:left;
+}
+.replytitle {
+	
+	font-size:18px;
+    color:#FF0000;
+  font-weight:800;
+}
+.commentpostername {
+  
+  font-size:11pt;
+  color:#FFFFFF;
+  font-weight: bold;
+}
+.thumbnailmsg {
+	color:#000000;
+}
+.abbrev {
+        color:#707070;
+}
+.highlight {
+	background-color:#CC66FF;	
+	color:#000000;
+	border: 1px dashed #FFFFFF;
+}
+
+.title {
+	font-size: small;
+	font-weight: bold;
+	font-family:Helvetica, Arial;
+    background-color: #33FF00;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+	padding: 0px 0px 0px 4px;
+    border: 1px solid #000000;
+}
+
+.content {
+	text-align:left;
+	margin-top:2px;
+	margin-bottom: 10px;	
+	padding: 2px;
+	list-style: none;
+    background-color: #CC66FF;
+    border: 1px solid #000000;	
+}		
+
+.top {
+	font-size:20px;
+	font-family: "Comic Sans MS", "Times New Roman", Helvetica, Arial;
+	font-weight:normal;
+	text-align:center;
+	width:75%;
+	position:absolute;
+	top:0px;
+	left:205px;
+	margin-top:5px;
+}
