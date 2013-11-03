@@ -4690,8 +4690,8 @@ $line['image_thumb']."\" width=\"100\" height=\"100\" border=\"0\"/></td><td>" .
 			$new_h = 200;
 			$name = $_FILES['previewnail']['name'];
 			$filename = $thumb_path . $randy .'.'. $noggery[1];
-			$upload_path = '/home/thepinkertons/99chan.org/download_src/' . $randy .'.'.$noggery[1];
-			$thumb_path = '/home/thepinkertons/99chan.org/download_thumb/' . $randy .'.'.$noggery[1];
+			$upload_path = KU_ROOTDIR . '/download_src/' . $randy .'.'.$noggery[1];
+			$thumb_path = KU_ROOTDIR . '/download_thumb/' . $randy .'.'.$noggery[1];
 			if (!createThumbnail($_FILES['previewnail']['tmp_name'], $thumb_path, KU_THUMBWIDTH, KU_THUMBHEIGHT)) {
 				exitWithErrorPage(_gettext('Could not create thumbnail.'));
 			}
@@ -4913,8 +4913,8 @@ href="'.KU_WEBPATH.'/manage_page.php?action=download&source='.htmlentities($resu
 			$new_h = 200;
 			$name = $_FILES['previewnail']['name'];
 			$filename = $thumb_path . $randy .'.'. $noggery[1];
-			$upload_path = '/home/thepinkertons/99chan.org/gay_src/' . $randy .'.'.$noggery[1];
-			$thumb_path = '/home/thepinkertons/99chan.org/gay_thumb/' . $randy .'.'.$noggery[1];
+			$upload_path = KU_ROOTDIR . '/gay_src/' . $randy .'.'.$noggery[1];
+			$thumb_path = KU_ROOTDIR . '/gay_thumb/' . $randy .'.'.$noggery[1];
 			if (!createThumbnail($_FILES['previewnail']['tmp_name'], $thumb_path, KU_THUMBWIDTH, KU_THUMBHEIGHT)) {
 				exitWithErrorPage(_gettext('Could not create thumbnail.'));
 			}
