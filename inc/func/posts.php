@@ -56,7 +56,20 @@ function checkMd5($md5, $board, $boardid) {
  * @return boolean Success/fail
  */
 function createThumbnail($name, $filename, $new_w, $new_h) {
-	if (KU_THUMBMETHOD == 'imagemagick') {
+	if (KU_ANIMATEDTHUMBS && substr($filename, 0, -3) == 'gif') {
+		$convert = 'gifsicle --unoptimize';
+		$convert .= ' --color-method=median-cut --colors=64 --optimize=3';
+		$convert .= ' --resize-fit ' . $new_w . 'x' . $new_h;
+		$convert .= '<' . escapeshellarg($name);
+		$convert .= '>' . escapeshellarg($filename);
+		exec($convert);
+		
+		if (is_file($filename)) {
+			return true;
+		} else {
+			return false;
+		}
+	} elseif (KU_THUMBMETHOD == 'imagemagick') {
 		$convert = 'convert ' . escapeshellarg($name);
 		if (!KU_ANIMATEDTHUMBS) {
 			$convert .= '[0] ';
