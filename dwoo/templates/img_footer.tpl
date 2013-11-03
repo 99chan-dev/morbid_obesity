@@ -85,9 +85,9 @@
 		{/if}
 	{/if}
  - [<a href="{%KU_WEBPATH}" target="_top">{t}Home{/t}</a>]&nbsp;[<a href="{%KU_CGIPATH}/manage.php" target="_top">{t}Manage{/t}</a>]
-  [<a href="https://99chan.org/irc/">IRC</a>] 
-  [<a href="https://99chan.org/phpdenora/">IRC Stats</a>]
-  [<a href="https://99chan.org/usage/">Site Stats</a>]      
+  [<a href="/irc/">IRC</a>] 
+  [<a href="/phpdenora/">IRC Stats</a>]
+  [<a href="/usage/">Site Stats</a>]      
 	</div>
 {/if}
 <br />

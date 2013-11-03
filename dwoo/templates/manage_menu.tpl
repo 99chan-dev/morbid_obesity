@@ -112,7 +112,7 @@ function showdirs() {
 <base target="main" />
 </head>
 <body>
-<img src="https://www.99chan.org/banners/top.php" style="width:100%;">
+<img src="/banners/top.php" style="width:100%;">
 <h1>{%KU_NAME}</h1>
 <ul>
 <li><a href="{%KU_WEBFOLDER}" target="_top">{t}Front Page{/t}</a></li>
@@ -120,8 +120,8 @@ function showdirs() {
 {if %KU_MENUSTYLESWITCHER && %KU_MENUTYPE eq 'normal'}
 	<li id="sitestyles"><a onclick="javascript:showstyleswitcher();" href="#" target="_self">[{t}Site Styles{/t}]</a><li>  
 <li><a href="{%KU_CGIPATH}/manage.php" target="_top">[{t}Management{/t}]  </a></li>
-<li><a href="https://www.99chan.org/irc.html">[{t}Internet Relay Chat{/t}]  </a> </li> 
-<li><a href="https://www.99chan.org/phpdenora/">[{t}IRC Stats{/t}]  </a>   </li>
+<li><a href="/irc.html">[{t}Internet Relay Chat{/t}]  </a> </li> 
+<li><a href="/phpdenora/">[{t}IRC Stats{/t}]  </a>   </li>
 {/if}
 {if $showdirs eq 0}
 	<li><a onclick="javascript:showdirs();" href="{$files.1}" target="_self">[{t}Show Directories{/t}]</a></li>
@@ -190,7 +190,7 @@ function showdirs() {
 
 <body>
 <h2>Mysql Administration</h2>
-<ul><li><a href="https://www.99chan.org/phpmyadmin/">PHPmyAdmin</a></li></ul>  
+<ul><li><a href="/phpmyadmin/">PHPmyAdmin</a></li></ul>  
 <p>
 <h2>{t}Manage Boards{/t}</h2>  
 <ul>

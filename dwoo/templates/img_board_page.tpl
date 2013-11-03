@@ -1,4 +1,4 @@
-<form id="delform" action="https://www.99chan.org/board.php" method="post">
+<form id="delform" action="/board.php" method="post">
 <input type="hidden" name="board" value="{$board.name}" />
 {foreach name=thread item=postsa from=$posts}
 	{foreach key=postkey item=post from=$postsa}
@@ -6,7 +6,7 @@
 			<span id="unhidethread{$post.id}{$board.name}" style="display: none;">
 			{t}Thread{/t} <a href="{%KU_BOARDSFOLDER}{$board.name}/res/{$post.id}.html">{$post.id}</a> {t}hidden.{/t}
 			<a href="#" onclick="javascript:togglethread('{$post.id}{$board.name}');return false;" title="{t}Un-Hide Thread{/t}">
-				<img src="https://www.99chan.org/css/icons/blank.gif" border="0" class="unhidethread" alt="{t}Un-Hide Thread{/t}" />
+				<img src="/css/icons/blank.gif" border="0" class="unhidethread" alt="{t}Un-Hide Thread{/t}" />
 			</a>
 	</span>
 	<div id="thread{$post.id}{$board.name}">

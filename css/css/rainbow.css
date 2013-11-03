@@ -4,7 +4,7 @@ html, body {
 	 color:#4B0082;
 }
 body {
-	background:url('https://99chan.org/rainbow.png') repeat-x;
+	background:url('/rainbow.png') repeat-x;
 	background-attachment: fixed;
 }
 a {

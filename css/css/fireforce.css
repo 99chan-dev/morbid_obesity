@@ -1,7 +1,7 @@
 html, body {
 	font-size:12pt;
 	background: #2E2D2B;
-	/* background-image:url('http://www.operatorchan.org/css/images/FireForce.png'); */
+	/* background-image:url('/css/images/FireForce.png'); */
 	color:#909090;
 }
 
@@ -80,7 +80,7 @@ font-weight:bold;
 	color:#ffffff;
 	width:100%;
 	font-weight: bold;
-	background-image:url('http://www.operatorchan.org/css/images/FireForce-banner.png'); 
+	background-image:url('/css/images/FireForce-banner.png'); 
 }
 
 .replymode {
@@ -121,7 +121,7 @@ color:#536345;
 
 .postblock {
 	background: #202020;
-	background-image:url('http://www.operatorchan.org/css/images/FireForce-small.png'); 
+	background-image:url('/css/images/FireForce-small.png'); 
 	border: 1px solid #303030;
 	color: #ffffff;
 	font-weight: bold;
@@ -132,7 +132,7 @@ color:#536345;
 	text-align:center;
 	font-size:12px;
 	font-family:sans-serif;
-	background-image:url('http://www.operatorchan.org/css/images/FireForce-banner.png'); 
+	background-image:url('/css/images/FireForce-banner.png'); 
 }
 
 .passvalid {
