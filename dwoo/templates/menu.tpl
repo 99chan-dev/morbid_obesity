@@ -93,10 +93,11 @@ function showdirs() {
 {$showdirs =1 }
 {if %KU_MENUSTYLESWITCHER && %KU_MENUTYPE eq 'normal'}
 	<li id="sitestyles"><a onclick="javascript:showstyleswitcher();" href="#" target="_self">[{t}Site Styles{/t}]</a><li>  
-<li><a href="/manage.php" target="_top">[{t}Management{/t}]  </a></li>
-<li><a href="/irc/">[{t}Internet Relay Chat{/t}]  </a> </li> 
-<li><a href="/phpdenora/">[{t}IRC Stats{/t}]  </a>   </li>
-<li><a href="/usage/">[{t}Site Stats{/t}] </a> </li>
+{/if}
+{if %KU_MENULINKS && %KU_MENUTYPE eq 'normal'}
+	{foreach %KU_MENULINKS name href}
+		<li><a href="{$href}" target="_top">[{$name}]</a></li>
+	{/foreach}
 {/if}
 {if $showdirs eq 0}
 	<li><a onclick="javascript:showdirs();" href="{$files.1}" target="_self">[{t}Show Directories{/t}]</a></li>
