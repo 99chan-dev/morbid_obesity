@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>{%KU_NAME} Navigation</title>
  {if %KU_MENUTYPE eq 'normal'}
-	<link rel="stylesheet" type="text/css" href="https://www.99chan.org/css/menu_global.css" />
+	<link rel="stylesheet" type="text/css" href="/css/menu_global.css" />
 	{loop $styles}
 			<link rel="{if $ neq %KU_DEFAULTMENUSTYLE}alternate {/if}stylesheet" type="text/css" href="{%KU_WEBFOLDER}css/site_{$}.css" title="{$|capitalize}" />
 			<link rel="{if $ neq %KU_DEFAULTMENUSTYLE}alternate {/if}stylesheet" type="text/css" href="{%KU_WEBFOLDER}css/sitemenu_{$}.css" title="{$|capitalize}" />
@@ -17,9 +17,9 @@
 			var style_cookie_site = "kustyle_site";
 		//--></script>
 <link rel="shortcut icon" href="{%KU_WEBFOLDER}favicon.ico" />
-<script type="text/javascript" src="https://www.99chan.org/lib/javascript/gettext.js"></script>
-<script type="text/javascript" src="https://www.99chan.org/lib/javascript/menu.js"></script>
-<script type="text/javascript" src="https://www.99chan.org/lib/javascript/kusaba.js"></script>
+<script type="text/javascript" src="/lib/javascript/gettext.js"></script>
+<script type="text/javascript" src="/lib/javascript/menu.js"></script>
+<script type="text/javascript" src="/lib/javascript/kusaba.js"></script>
 <script type="text/javascript"><!--
 {if $showdirs eq 0 && $files.0 neq $files.1 }
 	if (getCookie(tcshowdirs) == yes) {
@@ -86,17 +86,17 @@ function showdirs() {
 <base target="main" />
 </head>
 <body>
-<img src="https://www.99chan.org/banners/top.php" style="width:100%;">
+<img src="/banners/top.php" style="width:100%;">
 <h1>{%KU_NAME}</h1>
 <ul>
 <li><a href="{%KU_WEBFOLDER}" target="_top">{t}Front Page{/t}</a></li>
 {$showdirs =1 }
 {if %KU_MENUSTYLESWITCHER && %KU_MENUTYPE eq 'normal'}
 	<li id="sitestyles"><a onclick="javascript:showstyleswitcher();" href="#" target="_self">[{t}Site Styles{/t}]</a><li>  
-<li><a href="https://www.99chan.org/manage.php" target="_top">[{t}Management{/t}]  </a></li>
-<li><a href="https://www.99chan.org/irc/">[{t}Internet Relay Chat{/t}]  </a> </li> 
-<li><a href="https://www.99chan.org/phpdenora/">[{t}IRC Stats{/t}]  </a>   </li>
-<li><a href="https://www.99chan.org/usage/">[{t}Site Stats{/t}] </a> </li>
+<li><a href="/manage.php" target="_top">[{t}Management{/t}]  </a></li>
+<li><a href="/irc/">[{t}Internet Relay Chat{/t}]  </a> </li> 
+<li><a href="/phpdenora/">[{t}IRC Stats{/t}]  </a>   </li>
+<li><a href="/usage/">[{t}Site Stats{/t}] </a> </li>
 {/if}
 {if $showdirs eq 0}
 	<li><a onclick="javascript:showdirs();" href="{$files.1}" target="_self">[{t}Show Directories{/t}]</a></li>
@@ -130,13 +130,13 @@ function showdirs() {
 		<ul>
 		{if count($sect.boards) > 0}
 			{foreach name=brds item=brd from=$sect.boards}
-				<li><a href="https://www.99chan.org/{$brd.name}/" class="boardlink{if $brd.trial eq 1} trial{/if}{if $brd.popular eq 1} pop{/if}">
+				<li><a href="/{$brd.name}/" class="boardlink{if $brd.trial eq 1} trial{/if}{if $brd.popular eq 1} pop{/if}">
 				{if $showdirs eq 1}
 					/{$brd.name}/ - 
 				{/if}
 				{$brd.desc}
 				{if $brd.locked eq 1}
-					<img src="https://www.99chan.org/css/locked.gif" border="0" alt="{t}Locked{/t}">
+					<img src="/css/locked.gif" border="0" alt="{t}Locked{/t}">
 				{/if}
 				</a></li>
 			{/foreach}
@@ -160,7 +160,7 @@ function showdirs() {
 		<li>{%KU_IRC}</li>
 	</ul>
 {/if}
-<script src="https://www.99chan.org/barrelroll.min.js"></script>
+<script src="/barrelroll.min.js"></script>
 </body>
 </html>
 
