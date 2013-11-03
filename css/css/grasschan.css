@@ -225,35 +225,35 @@ ol li * {
 }
 
 .hidethread {
- background: transparent url('http://7chan.org/css/icons/trans/icons.png') -32px -16px no-repeat;
+ background: transparent url('/css/icons/trans/icons.png') -32px -16px no-repeat;
 }
 
 .unhidethread {
- background: transparent url('http://7chan.org/css/icons/trans/icons.png') -48px 0px no-repeat;
+ background: transparent url('/css/icons/trans/icons.png') -48px 0px no-repeat;
 }
 
 .watchthread {
- background: transparent url('http://7chan.org/css/icons/trans/icons.png') -32px 0px no-repeat;
+ background: transparent url('/css/icons/trans/icons.png') -32px 0px no-repeat;
 }
 
 .expandthread {
- background: transparent url('http://7chan.org/css/icons/trans/icons.png') 0px -16px no-repeat;
+ background: transparent url('/css/icons/trans/icons.png') 0px -16px no-repeat;
 }
 
 .quickreply {
- background: transparent url('https://7chan.org/css/icons/trans/icons.png') 0px 0px no-repeat;
+ background: transparent url('/css/icons/trans/icons.png') 0px 0px no-repeat;
 }
 
 .hidewatchedthreads {
- background: transparent url('https://7chan.org/css/icons/trans/icons.png') -48px -16px no-repeat;
+ background: transparent url('/css/icons/trans/icons.png') -48px -16px no-repeat;
 }
 
 .refreshwatchedthreads {
- background: transparent url('https://7chan.org/css/icons/trans/icons.png') -16px -16px no-repeat;
+ background: transparent url('/css/icons/trans/icons.png') -16px -16px no-repeat;
 }
 
 .restorewatchedthreads {
- background: transparent url('https://7chan.org/css/icons/trans/icons.png') -16px 0px no-repeat;
+ background: transparent url('/css/icons/trans/icons.png') -16px 0px no-repeat;
 }
 
 .expandall {
@@ -266,7 +266,7 @@ ol li * {
 .locked {
   width:0;
   height:0;
-  background: url('https://7chan.org/css/lockgray.png') no-repeat bottom left;
+  background: url('/css/lockgray.png') no-repeat bottom left;
   padding-left:12px;
   padding-bottom:15px;
 }
@@ -274,7 +274,7 @@ ol li * {
 .stickied {
   width:0;
   height:0;
-  background: url('https://7chan.org/css/stickygray.png') no-repeat center;
+  background: url('/css/stickygray.png') no-repeat center;
   padding-left:14px;
   padding-bottom:15px;
 }

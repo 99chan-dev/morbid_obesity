@@ -254,7 +254,7 @@ body {
 	font-size: .7em;
 	text-align: left;
 
-	# background: url(http://britfa.gs/img/greySeventy.png) repeat;
+	# background: url(/img/greySeventy.png) repeat;
 
 }
 #wiremenu li {
@@ -529,7 +529,7 @@ text-decoration: none;
 
 
 .postarea {
-        background: url(http://britfa.gs/img/greySeventy.png) repeat;
+        background: url(/img/greySeventy.png) repeat;
 		-moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 	-khtml-border-radius: 10px;	
@@ -739,7 +739,7 @@ div.postboxtop {
 	position: fixed;
 	float: right;
 	right: 20px;
-	background: url(http://britfa.gs/img/greyFifty.png) repeat;
+	background: url(/img/greyFifty.png) repeat;
 			
 	border: 1px dashed #eeeeee;
 

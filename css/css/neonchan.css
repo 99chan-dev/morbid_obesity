@@ -2,7 +2,7 @@ html, body {
 	font-size:12pt;
 	color:#FFFFFF;
 	background-color: #000000;
-	background-image: url(http://www.puertochan.org/css/cssimages/black.png);
+	background-image: url(/css/cssimages/black.png);
 	
 }
 a {
@@ -74,7 +74,7 @@ a:hover {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	font-weight:800;
-	background-image: url(http://puertochan.org/css/cssimages/blackbg.jpg);
+	background-image: url(/css/cssimages/blackbg.jpg);
 	border: thin solid #8bd9e0;	
 }
 .footer {
@@ -170,7 +170,7 @@ font-size:65%
 	border-radius: 15px;
 	border: thin solid #8bd9e0;
 	background-color: #000000;
-	background-image: url(http://puertochan.org/css/cssimages/blackbg.jpg);
+	background-image: url(/css/cssimages/blackbg.jpg);
 	background-repeat: repeat;
 }
 .replyhl {
@@ -211,5 +211,5 @@ font-size:65%
 
 .reflinkpreview {
 	background-color: #000000 !important;
-	background-image: url(http://puertochan.org/css/cssimages/blackbg.jpg);
+	background-image: url(/css/cssimages/blackbg.jpg);
 }

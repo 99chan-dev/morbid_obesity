@@ -1,5 +1,5 @@
 html, body {
-background-image: url('https://www.99chan.org/css/icons/paisley_bg.jpg'); /* this is your main bg image */
+background-image: url('/css/icons/paisley_bg.jpg'); /* this is your main bg image */
 background-attachment: fixed; /* toggles whether it is scrollable or not */
 color:#909090;
 }
@@ -44,7 +44,7 @@ font-weight: bold;
 background:inherit;
 }
 .postblock {
-background-image: url('https://www.99chan.org/css/icons/paisley_fg.jpg');
+background-image: url('/css/icons/paisley_fg.jpg');
 background-attachment: fixed;
 border: 1px solid #303030;
 color: #ffffff;
@@ -87,7 +87,7 @@ background:inherit;
 color:#707070;
 }
 .reply {
-background-image: url('https://www.99chan.org/css/icons/paisley_fg.jpg'); /* bg of replies in the table */
+background-image: url('/css/icons/paisley_fg.jpg'); /* bg of replies in the table */
 background-attachment: fixed;
 padding: 0px 2px 0px 0px; /* lines it up so the 2 bgs above match */
 -moz-border-radius: 3px;

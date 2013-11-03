@@ -186,7 +186,7 @@ div.page_header li:hover { background: #FFF0CF; }
 
 .reply {
     background-color: #E0DDEE;
-    background-image: url('http://i.imgur.com/Nqu8L.jpg');
+    background-image: url('/Nqu8L.jpg');
     border-radius: 8px;
     box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.3),
     0px 5px 10px -2px rgba(0,0,0,0.4),
@@ -348,7 +348,7 @@ div.logo {
 
 #delform {
     background-color: #F6DDFF;
-    background-image: url('http://i.imgur.com/bvzjC.jpg');
+    background-image: url('/bvzjC.jpg');
     border-color: #913f91;
     border-left-width: 4px;
     border-radius: 15px;
