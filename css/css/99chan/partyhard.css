@@ -13,7 +13,7 @@ body
 
 
 html, body {
-	background-image:url(http://www.99chan.org/storage/src/121447835286.gif); 
+	background-image:url(/storage/src/121447835286.gif); 
 	background-repeat:repeat; 
 	background-attachment:fixed; 
 	color: #333333;
@@ -42,7 +42,7 @@ a:hover {
 	width:100%;
 }
 .theader, .passvalid {
-	background-image:url(http://www.99chan.org/storage/src/121447835286.gif); 
+	background-image:url(/src/121447835286.gif); 
 	background-position:top left; 
 	background-repeat:repeat; 
 	background-attachment:fixed; 
@@ -61,7 +61,7 @@ a:hover {
 	font-size:0.7em;
 }
 .postblock {
-	background-image:url(http://www.99chan.org/storage/src/121447835286.gif); 
+	background-image:url(/storage/src/121447835286.gif); 
 	background-position:top left; 
 	background-repeat:repeat; 
 	background-attachment:fixed; 
@@ -83,7 +83,7 @@ a:hover {
 	padding-bottom:4px;
 }
 .managehead {
-	background-image:url(http://www.99chan.org/storage/src/121447835286.gif); 
+	background-image:url(/storage/src/121447835286.gif); 
 	background-position:top left; 
 	background-repeat:repeat; 
 	background-attachment:fixed; 
@@ -97,7 +97,7 @@ a:hover {
 	color:#800000;
 }
 .row1 {
-	background-image:url(http://www.99chan.org/storage/src/121447835286.gif); 
+	background-image:url(/storage/src/121447835286.gif); 
 	background-position:top left; 
 	background-repeat:repeat; 
 	background-attachment:fixed; 
@@ -141,7 +141,7 @@ a:hover {
 	color:#666666;
 }
 .reply {
-	background-image:url(http://www.99chan.org/storage/src/121447835286.gif); 
+	background-image:url(/storage/src/121447835286.gif); 
 	background-position:top left; 
 	background-repeat:repeat; 
 	background-attachment:fixed; 
@@ -202,7 +202,7 @@ table td {
 }
 
 .watchedthreads {
-	background-image:url(http://www.99chan.org/storage/src/121447835286.gif) !important;
+	background-image:url(/storage/src/121447835286.gif) !important;
 	background-position:top left; 
 	background-repeat:repeat; 
 	background-attachment:fixed; 

@@ -3,7 +3,7 @@ body {
 	background: #EEFFF2;
 	font-family:  Arial, sans-serif;
 	color: #072c10;
-	background: url(http://notfourchan.net/back.gif) top left repeat-x #EEFFF2;
+	background: url(/back.gif) top left repeat-x #EEFFF2;
 }
 .navbar {
 	border: 1px solid #52835E;

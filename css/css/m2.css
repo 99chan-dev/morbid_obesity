@@ -2,7 +2,7 @@ html, body {
 	font-size:12pt;
 	background: #000000;
     background-attachment: fixed;
-	background-image:url('http://www.operatorchan.org/css/images/multicam_darker.jpg');
+	background-image:url('/css/images/multicam_darker.jpg');
 	color:#909090;
 }
 
@@ -125,7 +125,7 @@ color:#7F8A79;
 	font-weight: bold;
 	padding: 2px 5px 2px 5px;
     background-attachment: fixed;
-	background-image:url('http://www.operatorchan.org/css/images/multicam_dark.jpg');
+	background-image:url('/css/images/multicam_dark.jpg');
 }
 
 .footer {
@@ -226,7 +226,7 @@ color:#7F8A79;
 	border:1px solid #101010;
 	font-family:serif;
     background-attachment: fixed;
-	background-image:url('http://www.operatorchan.org/css/images/multicam_dark.jpg');
+	background-image:url('/css/images/multicam_dark.jpg');
 }
 
 .replyhl {

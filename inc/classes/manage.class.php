@@ -567,10 +567,10 @@ name="enableon[]">';
 			}
 			if ($_GET['act'] == 'submit') {
 					if ($_FILES['img']['size'] > 0) {
-						$path = '/var/www/html/module_images/';
+						$path = KU_ROOTDIR . '/module_images/';
 						$target_path = $path . basename($_FILES['img']['name']);
 						move_uploaded_file($_FILES['img']['tmp_name'], $target_path);
-						$img = '<img src="' . str_replace('/var/www/html/','http://99chan.org/',$target_path) . '" />';
+						$img = '<img src="' . str_replace(KU_ROOTDIR,KU_WEBPATH,$target_path) . '" />';
 					}
 					if (isset($_POST['allboards'])) {
 						$boards = $tc_db->GetAll("SELECT * FROM `".KU_DBPREFIX."boards` ORDER BY `name`");

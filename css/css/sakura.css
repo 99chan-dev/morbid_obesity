@@ -266,7 +266,7 @@ ol li * {
 .locked {
   width:0;
   height:0;
-  background: url('https://7chan.org/css/lockgray.png') no-repeat bottom left;
+  background: url('/css/lockgray.png') no-repeat bottom left;
   padding-left:12px;
   padding-bottom:15px;
 }
@@ -274,7 +274,7 @@ ol li * {
 .stickied {
   width:0;
   height:0;
-  background: url('https://7chan.org/css/stickygray.png') no-repeat center;
+  background: url('/css/stickygray.png') no-repeat center;
   padding-left:14px;
   padding-bottom:15px;
 }

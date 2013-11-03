@@ -1,6 +1,6 @@
 body {
          font-size:80%;
-         background-image:url(http://lulzenterprises.org/css/images/ravehellbg.gif);
+         background-image:url(/css/images/ravehellbg.gif);
          color:#990000;
          font-family: Trebuchet MS;
 }
@@ -124,7 +124,7 @@ a:hover       {
         font-weight:800;
 }
 .reply {
-         background-image:url(http://legi0n.789chan.org/css/images/ravehellbg.gif);
+         background-image:url(/css/images/ravehellbg.gif);
 	border: 1px solid #000;
 	margin-bottom: 5px;
 }

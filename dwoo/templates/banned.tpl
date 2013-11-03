@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>{t}YOU ARE BANNED{/t}!</title>
-<link rel="stylesheet" type="text/css" href="https://99chan.org/css/helza.css" title="Rainbow" />
+<link rel="stylesheet" type="text/css" href="/css/helza.css" title="Rainbow" />
 
 <link rel="shortcut icon" href="{%KU_WEBPATH}/favicon.ico">
 </head>
@@ -11,7 +11,7 @@
 <h3>{%KU_SLOGAN}</h3>
 <div style="margin: 3em;">
 	<h2>&nbsp;{t}YOU ARE BANNED{/t}! :\</h2>
-	<img src="https://99chan.org/banned1.jpg" style="float: right;" alt=":'(">
+	<img src="/banned1.jpg" style="float: right;" alt=":'(">
 	{foreach name=bans item=ban from=$bans}
 		{if not $.foreach.bans.first}
 			{t}Additionally{/t},

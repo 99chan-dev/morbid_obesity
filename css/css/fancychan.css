@@ -2,7 +2,7 @@ html, body {
 	font-size:12pt;
 	color:#000000;
 	background-color: #faeffa;
-	background-image: url(http://i53.tinypic.com/18c58l.jpg);
+	background-image: url(/18c58l.jpg);
 }
 a {
 	background:inherit;
@@ -166,7 +166,7 @@ font-size:65%
 	border-radius: 15px;
 	border: thin solid #b0a498;
 	background-color: #e0e5e4;
-	background-image: url(http://i52.tinypic.com/2rc4cvc.jpg);
+	background-image: url(/2rc4cvc.jpg);
 	background-repeat: repeat;
 }
 .replyhl {

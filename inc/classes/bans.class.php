@@ -90,9 +90,9 @@ class Bans {
 		$boardid = $tc_db->GetOne("SELECT `id` FROM `".KU_DBPREFIX."boards` WHERE `name` = ".$tc_db->qstr($banboard));
 		$post = $tc_db->GetOne("SELECT `parentid` FROM `".KU_DBPREFIX."posts` WHERE `id` = ".$banpost." AND `boardid` = ".$boardid."");
 		if ($post != '0') {
-				$url = "http://www.99chan.org" . "/" . $banboard . "/res/" . $post . ".html#" . $banpost;
+				$url = KU_WEBPATH . "/" . $banboard . "/res/" . $post . ".html#" . $banpost;
 		} else {
-			$url = "http://www.99chan.org" . "/" . $banboard . "/res/" . $banpost . ".html";
+			$url = KU_WEBPATH . "/" . $banboard . "/res/" . $banpost . ".html";
 		}
 
 		$tc_db->Execute("INSERT INTO `".KU_DBPREFIX."banlist` ( `ip` , `ipmd5` , `type` , `allowread` , `globalban` , `boards` , `by` , `at` , `until` , `reason`, `staffnote`, `appealat`, `url` ) VALUES ( ".$tc_db->qstr(md5_encrypt($ip, KU_RANDOMSEED))." , '".md5($ip)."' , '".$type."' , '".$allowread."' , '".$globalban."' , '".$boards."' , '".$modname."' , '".time()."' , ".$tc_db->qstr($ban_until)." , ".$reason." , ".$staffnote.", ".$appealat.", ".$tc_db->qstr($url)." ) ");

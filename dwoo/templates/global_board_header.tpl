@@ -25,4 +25,4 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,lo
 <meta http-equiv="expires" content="Sat, 17 Mar 1990 00:00:01 GMT" />
 <meta http-equiv="Content-Type" content="text/html;charset={%KU_CHARSET}" />
 <script type="text/javascript" src="{$cwebpath}/lib/javascript/gettext.js"></script>
-<script type="text/javascript" src="https://www.99chan.org/qwoo.js"></script>
+<script type="text/javascript" src="/qwoo.js"></script>
