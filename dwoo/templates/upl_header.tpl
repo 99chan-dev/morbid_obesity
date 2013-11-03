@@ -1,4 +1,5 @@
-<script type="text/javascript" src="{$cwebpath}lib/javascript/protoaculous-compressed.js"></script>
+<script type="text/javascript" src="{$cwebpath}lib/javascript/scriptaculous/lib/prototype.js"></script>
+<script type="text/javascript" src="{$cwebpath}lib/javascript/scriptaculous/src/scriptaculous.js"></script>
 <link rel="stylesheet" type="text/css" href="{$cwebpath}css/img_global.css" />
 {loop $ku_styles}
 	<link rel="{if $ neq $__.ku_defaultstyle}alternate {/if}stylesheet" type="text/css" href="{$__.cwebpath}css/{$}.css" title="{$|capitalize}" />
