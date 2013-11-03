@@ -84,10 +84,11 @@
 			{include $boardlist}
 		{/if}
 	{/if}
- - [<a href="{%KU_WEBPATH}" target="_top">{t}Home{/t}</a>]&nbsp;[<a href="{%KU_CGIPATH}/manage.php" target="_top">{t}Manage{/t}</a>]
-  [<a href="/irc/">IRC</a>] 
-  [<a href="/phpdenora/">IRC Stats</a>]
-  [<a href="/usage/">Site Stats</a>]      
+	{if %KU_MENULINKS}
+		{foreach %KU_MENULINKS name href}
+			[<a href="{$href}" target="_top">[{$name}]</a></li>]
+		{/foreach}
+	{/if}
 	</div>
 {/if}
 <br />
