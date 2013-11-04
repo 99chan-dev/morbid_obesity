@@ -1,0 +1,222 @@
+/* pumpkinspice.css by twobutts */
+
+html { height: 100%; }
+
+html,body {
+	background: black;
+	background: -webkit-linear-gradient(top, #540, rgba(0,0,0,0.3) 120px), url(icons/paisley_bg.jpg) fixed repeat;
+	background:    -moz-linear-gradient(top, #540, rgba(0,0,0,0.3) 120px), url(icons/paisley_bg.jpg) fixed repeat;
+	background:     -ms-linear-gradient(top, #540, rgba(0,0,0,0.3) 120px), url(icons/paisley_bg.jpg) fixed repeat;
+	background:      -o-linear-gradient(top, #540, rgba(0,0,0,0.3) 120px), url(icons/paisley_bg.jpg) fixed repeat;
+	background:         linear-gradient(to bottom, #540, rgba(0,0,0,0.3) 120px), url(icons/paisley_bg.jpg) fixed repeat;
+	color: #430;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	overflow-x: hidden;
+}
+
+/* sexy as fuck */
+.reply, input, textarea, .postblock, #watchedthreads {
+	background: black;
+	background: -webkit-linear-gradient(top, rgba(136,102,0,0.3), rgba(0,0,0,0.3)), url(icons/paisley_bg.jpg) fixed repeat;
+	background:    -moz-linear-gradient(top, rgba(136,102,0,0.3), rgba(0,0,0,0.3)), url(icons/paisley_bg.jpg) fixed repeat;
+	background:     -ms-linear-gradient(top, rgba(136,102,0,0.3), rgba(0,0,0,0.3)), url(icons/paisley_bg.jpg) fixed repeat;
+	background:      -o-linear-gradient(top, rgba(136,102,0,0.3), rgba(0,0,0,0.3)), url(icons/paisley_bg.jpg) fixed repeat;
+	background:         linear-gradient(to bottom, rgba(136,102,0,0.3), rgba(0,0,0,0.3)), url(icons/paisley_bg.jpg) fixed repeat;
+	color: #860;
+	border: 1px solid #430;
+	border-radius: 4px;
+}
+
+/* complimentary color for contrast */
+.highlight, .reflinkpreview {
+	background: black !important;
+	background: -webkit-linear-gradient(top, rgba(0,102,136,0.3), rgba(0,0,0,0.3)), url(icons/paisley_bg.jpg) fixed repeat !important;
+	background:    -moz-linear-gradient(top, rgba(0,102,136,0.3), rgba(0,0,0,0.3)), url(icons/paisley_bg.jpg) fixed repeat !important;
+	background:     -ms-linear-gradient(top, rgba(0,102,136,0.3), rgba(0,0,0,0.3)), url(icons/paisley_bg.jpg) fixed repeat !important;
+	background:      -o-linear-gradient(top, rgba(0,102,136,102,0.3), rgba(0,0,0,0.3)), url(icons/paisley_bg.jpg) fixed repeat !important;
+	background:         linear-gradient(to bottom, rgba(0,102,136,0.3), rgba(0,0,0,0.3)), url(icons/paisley_bg.jpg) fixed repeat !important;
+	color: #068 !important;
+	border: 1px solid #034 !important;
+	border-radius: 4px !important;
+}
+
+div > blockquote {
+	color: #860;
+}
+
+.highlight blockquote, .reflinkpreview blockquote {
+	color: #068 !important;
+}
+
+blockquote {
+	padding: 10px;
+}
+
+/* match img.thumb */
+blockquote object {
+	margin: 2px;
+	margin-right: 20px;
+	margin-left: -20px;
+}
+
+.navbar, .adminbar, .admin { color: #860; }
+
+.navbar {
+	background: transparent!important;
+	width: 100%!important;
+	padding: .4em!important;
+	top: 0;
+	z-index: 1;
+	font-size: 10pt;
+}
+
+.navbar   a, .navbar   a:hover,
+.adminbar a, .adminbar a:hover {
+	text-decoration: none;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #A80;
+}
+
+.reflink a:hover {
+	font-weight: bold;
+}
+
+.adminbar {
+	text-align: right;
+	clear: both;
+	float: right;
+	padding: 2px;
+	padding-left: 5px;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	padding-right: 5px;
+	font-size: 10pt;
+}
+
+.logo {
+	clear: both;
+	text-align: center;
+	font-size: 2em;
+	color: #A80;
+	width: 100%;
+	text-shadow: 0 0 0.8em #F5C, 0 0 0.8em #F5C;
+}
+
+.replymode, .catalogmode {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #A80;
+	width: 100%;
+}
+
+.rules {
+	width: 468px;
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+.rules li {
+	margin-left: 1em;
+}
+
+.postblock {
+	font-weight: bold;
+}
+
+
+.unkfunc, .unksexyc {
+	color: #068;
+}
+
+.highlight .unkfunc, .reflinkpreview .unkfunc,
+.highlight .unksexyc, .reflinkpreview .unksexyc {
+	color: #860 !important;
+}
+
+.filesize {
+	text-decoration: none;
+	text-shadow: 0 0 0.4em white, 0 0 1.0em white;
+}
+
+.filetitle {
+	background: inherit;
+	font-size: 1.2em;
+	color: #A80;
+	font-weight: bold;
+}
+
+.postername {
+	color: white;
+	font-weight: bold;
+}
+
+.postertrip {
+	color: white;
+}
+
+.oldpost {
+	color: #068;
+	font-weight: bold;
+}
+
+.abbrev, .omittedposts, .filesize, .filesize a, label, .reflink a {
+	color: gray !important;
+	text-shadow: 0 0 1em #F90;
+}
+
+.reply        > .filesize, .reply        > .filesize a, .reply        > label, .reply        > .reflink a,
+.highlight    > .filesize, .highlight    > .filesize a, .highlight    > label, .highlight    > .reflink a,
+.reflinkpreview .filesize, .reflinkpreview .filesize a, .reflinkpreview label, .reflinkpreview .reflink a {
+	text-shadow: none !important;
+}
+
+.reply, .highlight, .reflinkpreview {
+	border-width: 2px !important;
+	border-radius: 5px !important;
+	padding: 5px !important;
+}
+
+.doubledash {
+	color: #430;
+	vertical-align: top;
+	clear: both;
+	float: left;
+}
+
+.highlight .doubledash, .reflinkpreview .doubledash {
+	color: #068;
+}
+
+.thumbnailmsg {
+	font-size: small;
+	color: gray;
+}
+
+#watchedthreads {
+	background: rgba(136,102,0,0.3)!important; /* no sexy */
+}
+
+#watchedthreads .postblock {
+	border: none;
+}
+
+hr {
+	border: none;
+	border-color: #320;
+	color: #320;
+	background-color: #320;
+	height: 2px;
+}
+
+.reflinkpreview .reply {
+	border: none;
+	background: none;
+}
