@@ -1,6 +1,4 @@
 config.php
-config2.php
-config.back.up.php
 dwoo/templates_c/
 #	110B8BC8EA1470AC6EEB560D157469F6.txt
 34/
@@ -25,13 +23,8 @@ b/
 banned/
 #	banned1.jpg
 banners/
-#	barrelroll.min.js
-#	board.backup.php
-#	board.daschund.php
-#	board.php--buomg
 #	boards.html
 #	botman.gif
-#	browser.php
 cake/
 calc/
 cat/
@@ -41,61 +34,7 @@ cd/
 cf/
 #	clear.gif
 co/
-#	config.php.bak
 cp/
-#	css/2/314chan.css
-#	css/2/420.css
-#	css/2/789chan.css
-#	css/2/888chan.org/
-#	css/2/AidsBastion.css
-#	css/2/LasVegas.css
-#	css/2/TsukiPurple.css
-#	css/2/anonsaba.css
-#	css/2/faggot.css
-#	css/2/germany.css
-#	css/2/kusaba.css
-#	css/2/legi0n.css
-#	css/2/lt.css
-#	css/2/marcabian.css
-#	css/2/terogen.css
-#	css/2/thunderdome.css
-#	css/2/tinyboard.css
-#	css/2/www.314chan.org/
-#	css/2/zeal.css
-#	css/99chan/burichan.css
-#	css/99chan/futaba.css
-#	css/99chan/gurochan.css
-#	css/99chan/icons/
-#	css/99chan/index.html?C=D;O=A
-#	css/99chan/index.html?C=M;O=A
-#	css/99chan/index.html?C=N;O=D
-#	css/99chan/index.html?C=S;O=A
-#	css/99chan/kusaba.css
-#	css/99chan/manage_basic.css
-#	css/99chan/manage_tabs.css
-#	css/99chan/nigrachan.css
-#	css/99chan/nigrachan_rain.css
-#	css/99chan/paisley.css
-#	css/99chan/paisly.css
-#	css/99chan/rainbow.css
-#	css/99chan/site_nigrachan.css
-#	css/99chan/sitemenu_burichan.css
-#	css/99chan/sitemenu_futaba.css
-#	css/99chan/sitemenu_nigrachan.css
-#	css/99chan/txt_buritxt.css
-#	css/99chan/txt_futatxt.css
-#	css/99chan/txt_global.css
-#	css/darkchan.css.old
-#	css/extras/fuhrerchan.css
-#	css/extras/gurochan.css
-#	css/extras/kusaba.css
-#	css/extras/photon.css
-#	css/extras/site_photon.css
-#	css/extras/sitemenu_photon.css
-#	css/pumpkinspice.css
-#	css/root@dev.99chan.biz
-#	css/snow.png
-#	css/style.css
 cute/
 d/
 #	default.zip
@@ -131,23 +70,6 @@ h/
 #	hor/
 #	hueheh.gif
 #	hw.jpg
-#	inc-22222/
-#	inc/classes/manage.class.backup.php
-#	inc/classes/manage.class.beta.php
-#	inc/classes/manage.class.omghax
-#	inc/classes/manage.class.orig.php
-#	inc/classes/manage.class.php.current
-#	inc/classes/manage.class.php.old
-#	inc/classes/manage.class.php.regs
-#	inc/classes/manage.class.php.regs2
-#	inc/classes/manage.class.php.sloth
-#	inc/classes/manage.class.php.worksbutnoban
-#	inc/manage.class.php
-#	inc/manage.class.php.old
-#	inc1/
-#	index.html-bubububu
-#	index.html-olbackupusebubububu
-#	index.p
 india/
 #	iptables
 #	irc.html
@@ -159,13 +81,9 @@ irc/
 lego/
 lgbt/
 #	lib/javascript/clean/
-#	lib/javascript/kusaba.js.old
-#	lib/javascript/kusaba.js.rickb.102913
 #	lib/javascript/protoaculous-compressed.js
-#	lib1/
 #	license.txt
 lit/
-#	manage_pagebackup.php
 #	mchammer.gif
 men/
 #	menu.html
@@ -178,20 +96,14 @@ money/
 mu/
 nat/
 nerd/
-#	news.bck
-#	news.daschund
-#	nigga.php
 nwo/
-#	overboard.php
 #	passes
 #	pause.png
 phi/
-#	php.php
 #	phpMyAdmin-4.0.5-all-languages.zip
 #	phpMyAdmin-4.0.5-english.zip
 #	phpdenora-1.4.7.430.zip
 #	phpdenora/
-#	phpinfo.php
 #	phpmyadmin/
 pn/
 pol/
@@ -204,7 +116,6 @@ radio/
 raeg/
 #	rainbow.png
 #	redbullesports
-#	regnews.php
 regs/
 #	regssays.png
 reich/
@@ -217,23 +128,17 @@ sfcsp/
 #shit/
 site/
 smark/
-#	snow.php
 snow/
 #	sorttable.js
 #	spainter_all.jar
 #	spam.txt
 speak/
-#	staff.php
 #	stats.html
 stats/
 stencils/
 storage/
 #	swfobject.js
 t/
-#	test.php
-#	test/
-#	test23/
-#	testt.php
 tinfoil/
 toon/
 tttm/
@@ -244,7 +149,6 @@ vg/
 w/
 #	wat.html
 #	wat.ico
-#	wat.php
 #	wat.tar.gz
 #	wat.wat.wat
 wat/
