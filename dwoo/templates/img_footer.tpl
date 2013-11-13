@@ -84,9 +84,9 @@
 			{include $boardlist}
 		{/if}
 	{/if}
-	{if %KU_MENULINKS}
-		{foreach %KU_MENULINKS name href}
-			[<a href="{$href}" target="_top">[{$name}]</a></li>]
+	{if %KU_MENULINKS neq ''}
+		{foreach key=name item=href from=unserialize(%KU_MENULINKS)}
+			[<a href="{$href}" target="_top">{$name}</a></li>]
 		{/foreach}
 	{/if}
 	</div>
