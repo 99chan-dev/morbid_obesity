@@ -4,11 +4,11 @@ html, body {
 	padding: 0px;
 	margin: 0px;
 	background: black;
-	background: -webkit-linear-gradient(top, #454, rgba(0,0,0,0.3) 120px) no-repeat, url(icons/paisley_bg.jpg) fixed repeat right top;
-	background:    -moz-linear-gradient(top, #454, rgba(0,0,0,0.3) 120px) no-repeat, url(icons/paisley_bg.jpg) fixed repeat right top;
-	background:     -ms-linear-gradient(top, #454, rgba(0,0,0,0.3) 120px) no-repeat, url(icons/paisley_bg.jpg) fixed repeat right top;
-	background:      -o-linear-gradient(top, #454, rgba(0,0,0,0.3) 120px) no-repeat, url(icons/paisley_bg.jpg) fixed repeat right top;
-	background:         linear-gradient(to bottom, #454, rgba(0,0,0,0.3) 120px) no-repeat, url(icons/paisley_bg.jpg) fixed repeat right top;
+	background: black, -webkit-linear-gradient(top, #454, rgba(0,0,0,0.3) 120px) no-repeat, url(icons/paisley_bg.jpg) fixed repeat right top;
+	background: black,    -moz-linear-gradient(top, #454, rgba(0,0,0,0.3) 120px) no-repeat, url(icons/paisley_bg.jpg) fixed repeat right top;
+	background: black,     -ms-linear-gradient(top, #454, rgba(0,0,0,0.3) 120px) no-repeat, url(icons/paisley_bg.jpg) fixed repeat right top;
+	background: black,      -o-linear-gradient(top, #454, rgba(0,0,0,0.3) 120px) no-repeat, url(icons/paisley_bg.jpg) fixed repeat right top;
+	background: black,         linear-gradient(to bottom, #454, rgba(0,0,0,0.3) 120px) no-repeat, url(icons/paisley_bg.jpg) fixed repeat right top;
 	color: #343;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 13px;
