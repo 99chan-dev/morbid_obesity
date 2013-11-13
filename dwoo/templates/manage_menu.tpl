@@ -120,8 +120,8 @@ function showdirs() {
 {if %KU_MENUSTYLESWITCHER && %KU_MENUTYPE eq 'normal'}
 	<li id="sitestyles"><a onclick="javascript:showstyleswitcher();" href="#" target="_self">[{t}Site Styles{/t}]</a><li>  
 {/if}
-{if %KU_MENULINKS && %KU_MENUTYPE eq 'normal'}
-	{foreach %KU_MENULINKS name href}
+{if %KU_MENULINKS neq '' && %KU_MENUTYPE eq 'normal'}
+	{foreach key=name item=href from=unserialize(%KU_MENULINKS)}
 		<li><a href="{$href}" target="_top">[{$name}]</a></li>
 	{/foreach}
 {/if}
