@@ -86,7 +86,7 @@ function showdirs() {
 <base target="main" />
 </head>
 <body>
-<img src="/banners/top.php" style="width:100%;">
+<img src="{%KU_WEBPATH}/banners/logo" style="width:100%;">
 <h1>{%KU_NAME}</h1>
 <ul>
 <li><a href="{%KU_WEBFOLDER}" target="_top">{t}Front Page{/t}</a></li>

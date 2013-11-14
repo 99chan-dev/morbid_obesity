@@ -16,6 +16,7 @@
 <body>
 	<h1>{$dwoo.const.KU_NAME}</h1>
 	{if $dwoo.const.KU_SLOGAN neq ''}<h3><i>{$dwoo.const.KU_SLOGAN}</h3></i>{/if}
+	<img src="$ku_webpath}banners/big">
 	
 	<div class="menu" id="topmenu">
 		{$topads}
