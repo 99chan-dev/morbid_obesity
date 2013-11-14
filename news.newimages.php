@@ -61,7 +61,7 @@ if ($shownsfwpics)
 $topads .= '<img src="'. KU_WEBPATH . '/' . $result['name'] . '/thumb/'. $result['file'] . 's.'. $result['file_type'] . '" width="'. 
 $result['thumb_w'] . '" height="'. $result['thumb_h'] . '" border="0" />';
 else
-$topads .= '<img src="'. KU_WEBPATH . '/banners/top.php"><br>NSFW - ' . $result['name'] . '';
+$topads .= '<img src="'. KU_WEBPATH . '/banners/logo"><br>NSFW - ' . $result['name'] . '';
 } else
 $topads .= '<img src="'. KU_WEBPATH . '/' . $result['name'] . '/thumb/'. $result['file'] . 's.'. $result['file_type'] . '" width="'. 
 $result['thumb_w'] . '" height="'. $result['thumb_h'] . '" border="0" />';
