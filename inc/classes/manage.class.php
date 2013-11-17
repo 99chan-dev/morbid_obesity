@@ -111,9 +111,9 @@ class Manage {
   }
  
 
-
-
-	/* Show the header of the manage page */
+	/***
+    *  Show the header of the manage page 
+  ***/
 	function Header() {
 		global $dwoo_data, $tpl_page;
 
@@ -126,7 +126,9 @@ class Manage {
 		$dwoo_data->assign('includeheader', $tpl_includeheader);
 	}
 
-	/* Show the footer of the manage page */
+	/*** 
+    * Show the footer of the manage page 
+  ***/
 	function Footer() {
 		global $dwoo_data, $dwoo, $tpl_page;
 
@@ -137,7 +139,9 @@ class Manage {
 		$dwoo->output(KU_TEMPLATEDIR . '/manage.tpl', $dwoo_data);
 	}
 
-	// Creates a salt to be used for passwords
+	/***
+    * Creates a salt to be used for passwords
+  ***/
 	function CreateSalt() {
 		$chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 		$salt = '';
@@ -148,7 +152,9 @@ class Manage {
 		return $salt;
 	}
 
-	/* Validate the current session */
+	/***
+    *  Validate the current session 
+  ***/
 	function ValidateSession($is_menu = false) {
 		global $tc_db, $tpl_page;
 
@@ -172,7 +178,9 @@ class Manage {
 		}
 	}
 
-	/* Show the login form and halt execution */
+	/***
+    * Show the login form and halt execution 
+  ***/
 	function LoginForm() {
 		global $tc_db, $tpl_page;
 
@@ -181,19 +189,29 @@ class Manage {
 		}
 	}
 
-	/* Check login names and create session if user/pass is correct */
+	/***
+    * Check login names and create session if user/pass is correct 
+  ***/
 	function CheckLogin() {
 		global $tc_db, $action;
 
 		$tc_db->Execute("DELETE FROM `" . KU_DBPREFIX . "loginattempts` WHERE `timestamp` < '" . (time() - 1200) . "'");
 		$results = $tc_db->GetAll("SELECT HIGH_PRIORITY `ip` FROM `" . KU_DBPREFIX . "loginattempts` WHERE `ip` = '" . $_SERVER['REMOTE_ADDR'] . "' LIMIT 6");
+
 		if (count($results) > 5) {
-			exitWithErrorPage(_gettext('System lockout'), _gettext('Sorry, because of your numerous failed logins, you have been locked out from logging in for 20 minutes. Please wait and then try again.'));
+
+ 			exitWithErrorPage(_gettext('System lockout'), _gettext('Sorry, because of your numerous failed logins, you have been locked out from logging in for 20 minutes. Please wait and then try again.'));
+
 		} else {
+
 			$results = $tc_db->GetAll("SELECT HIGH_PRIORITY `username`, `password`, `salt` FROM `" . KU_DBPREFIX . "staff` WHERE `username` = " . $tc_db->qstr($_POST['username']) . " AND `type` != 3 LIMIT 1");
+
 			if (count($results) > 0) {
+
 				if (empty($results[0]['salt'])) {
+
 					if (md5($_POST['password']) == $results[0]['password']) {
+
 						$salt = $this->CreateSalt();
 						$tc_db->Execute("UPDATE `" .KU_DBPREFIX. "staff` SET salt = '" .$salt. "' WHERE username = " .$tc_db->qstr($_POST['username']));
 						$newpass = md5($_POST['password'] . $salt);
@@ -205,31 +223,48 @@ class Manage {
 						$action = 'posting_rates';
 						management_addlogentry(_gettext('Logged in'), 1);
 						die('<script type="text/javascript">top.location.href = \''. KU_CGIPATH .'/manage.php\';</script>');
+
 					} else {
+
 						$tc_db->Execute("INSERT HIGH_PRIORITY INTO `" . KU_DBPREFIX . "loginattempts` ( `username` , `ip` , `timestamp` ) VALUES ( " . $tc_db->qstr($_POST['username']) . " , '" . $_SERVER['REMOTE_ADDR'] . "' , '" . time() . "' )");
 						exitWithErrorPage(_gettext('Incorrect username/password.'));
+
 					}
+
 				} else {
+
 					if (md5($_POST['password'] . $results[0]['salt']) == $results[0]['password']) {
+
 						$_SESSION['manageusername'] = $_POST['username'];
 						$_SESSION['managepassword'] = md5($_POST['password'] . $results[0]['salt']);
 						$this->SetModerationCookies();
 						$action = 'posting_rates';
 						management_addlogentry(_gettext('Logged in'), 1);
 						die('<script type="text/javascript">top.location.href = \''. KU_CGIPATH .'/manage.php\';</script>');
+
 					} else {
+
 						$tc_db->Execute("INSERT HIGH_PRIORITY INTO `" . KU_DBPREFIX . "loginattempts` ( `username` , `ip` , `timestamp` ) VALUES ( " . $tc_db->qstr($_POST['username']) . " , '" . $_SERVER['REMOTE_ADDR'] . "' , '" . time() . "' )");
 						exitWithErrorPage(_gettext('Incorrect username/password.'));
+
 					}
+
 				}
+
 			} else {
+
 				$tc_db->Execute("INSERT HIGH_PRIORITY INTO `" . KU_DBPREFIX . "loginattempts` ( `username` , `ip` , `timestamp` ) VALUES ( " . $tc_db->qstr($_POST['username']) . " , '" . $_SERVER['REMOTE_ADDR'] . "' , '" . time() . "' )");
 				exitWithErrorPage(_gettext('Incorrect username/password.'));
+
 			}
+
 		}
+
 	}
 
-	/* Set mod cookies for boards */
+	/***
+    *  Set mod cookies for boards 
+  ***/
 	function SetModerationCookies() {
 		global $tc_db, $tpl_page;
 
@@ -245,7 +280,9 @@ class Manage {
 		}
 	}
 
-	/* Log current user out */
+	/***
+    *  Log current user out 
+  ***/
 	function Logout() {
 		global $tc_db, $tpl_page;
 
@@ -257,7 +294,9 @@ class Manage {
 		die('<script type="text/javascript">top.location.href = \''. KU_CGIPATH .'/manage.php\';</script>');
 	}
 
-		/* If the user logged in isn't an admin, kill the script */
+	/***
+    *  If the user logged in isn't an admin, kill the script 
+  ***/
 	function AdministratorsOnly() {
 		global $tc_db, $tpl_page;
 
@@ -266,7 +305,9 @@ class Manage {
 		}
 	}
 
-	/* If the user logged in isn't an moderator or higher, kill the script */
+	/***
+    * If the user logged in isn't an moderator or higher, kill the script 
+  ***/
 	function ModeratorsOnly() {
 		global $tc_db, $tpl_page;
 
@@ -282,7 +323,9 @@ class Manage {
 		}
 	}
 
-	/* See if the user logged in is an admin */
+	/***
+    * See if the user logged in is an admin 
+  ***/
 	function CurrentUserIsAdministrator() {
 		global $tc_db, $tpl_page;
 
@@ -306,7 +349,9 @@ class Manage {
 		exitWithErrorPage(_gettext('Invalid session, please log in again.'));
 	}
 
-	/* See if the user logged in is a moderator */
+	/***
+    * See if the user logged in is a moderator 
+  ***/
 	function CurrentUserIsModerator() {
 		global $tc_db, $tpl_page;
 
@@ -330,7 +375,9 @@ class Manage {
 		exitWithErrorPage(_gettext('Invalid session, please log in again.'));
 	}
 
-	/* See if the user logged in is a moderator of a specified board */
+	/***
+    * See if the user logged in is a moderator of a specified board 
+  ***/
 	function CurrentUserIsModeratorOfBoard($board, $username) {
 		global $tc_db, $tpl_page;
 
@@ -704,6 +751,9 @@ name="enableon[]"' . (in_array($board['name'],$onboards) ? 'checked' : '') . '>'
 		if ($a["$usorta"] > $b["$usorta"]) return 1;
 		return -1;
 	}
+
+
+
 	/*
 	* +------------------------------------------------------------------------------+
 	* Home Pages
