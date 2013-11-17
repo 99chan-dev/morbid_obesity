@@ -22,51 +22,93 @@
  */
 class Manage {
 
+  /***
+    * This function defines who sees the edit post option.
+  ***/
+  function editpostui() {
+      global $tc_db, $tpl_page;
 
-/* Post editing */
- 
-        function editpostui() {
-                global $tc_db, $tpl_page;
-                $this->ModeratorsOnly();
+    $this->ModeratorsOnly();
                
-        }
+  }
        
-        function editpost() {
-                global $tc_db, $tpl_page;
-                $this->ModeratorsOnly(); /*OR $this->AdministatorsOnly(); */ /*Select whether you want this option was for modetartors or only administators */
+  /***
+    * This allows a moderator or adminstrator to edit a post.
+    *
+    * @global $tc_db
+    * @global $tpl_page 
+  ***/
+  function editpost() {
+      global $tc_db, $tpl_page;
+  
+    $this->ModeratorsOnly(); /*OR $this->AdministatorsOnly(); */ /*Select whether you want this option was for modetartors or only administators */
                
-                $board = isset($_GET['boarddir']) ? $_GET['boarddir'] : '';
-                $editpostid = isset($_GET['editpostid']) ? $_GET['editpostid'] : '';
-                $board_id = $tc_db->GetOne("SELECT HIGH_PRIORITY `id` FROM `". KU_DBPREFIX . "boards` WHERE `name` = ".$tc_db->qstr($board));
+    $board = isset($_GET['boarddir']) ? $_GET['boarddir'] : '';
+    $editpostid = isset($_GET['editpostid']) ? $_GET['editpostid'] : '';
+    $board_id = $tc_db->GetOne("SELECT HIGH_PRIORITY `id` FROM `". KU_DBPREFIX . "boards` WHERE `name` = ".$tc_db->qstr($board));
                
-                if($_POST['message'] || $_POST['subject']) {
-                        if($_POST['message']) {
-                                $tc_db->Execute("UPDATE `" . KU_DBPREFIX . "posts` SET `message` = ".$tc_db->qstr($_POST['message'])." WHERE `boardid` = ".$board_id." AND `id` = ".$tc_db->qstr($editpostid)." ");
-                        }
-                        if($_POST['subject']) {
-                                $tc_db->Execute("UPDATE `" . KU_DBPREFIX . "posts` SET `subject` = ".$tc_db->qstr($_POST['subject'])." WHERE `boardid` = ".$board_id." AND `id` = ".$tc_db->qstr($editpostid)." ");
-                        }              
-                        $board_class = new Board($board);
-                        $board_class->RegenerateThreads(intval($_POST['thread']));
-                        $board_class->RegeneratePages();
-                        unset($board_class);
-                        $tpl_page .= _gettext('Edit successful.') . ' <br /><hr />';
-                }
+    if($_POST['message'] || $_POST['subject']) {
+
+      if($_POST['message']) {
+      
+        $tc_db->Execute("
+          UPDATE `" . KU_DBPREFIX . "posts` 
+            SET `message` = ".$tc_db->qstr($_POST['message'])." 
+            WHERE `boardid` = ".$board_id." 
+              AND `id` = ".$tc_db->qstr($editpostid)." 
+        ");
+
+      }
+
+      if($_POST['subject']) {
+      
+        $tc_db->Execute("
+          UPDATE `" . KU_DBPREFIX . "posts` 
+            SET `subject` = ".$tc_db->qstr($_POST['subject'])." 
+            WHERE `boardid` = ".$board_id." 
+              AND `id` = ".$tc_db->qstr($editpostid)." 
+        ");
+
+      }              
+
+      $board_class = new Board($board);
+      $board_class->RegenerateThreads(intval($_POST['thread']));
+      $board_class->RegeneratePages();
+      unset($board_class);
+
+      $tpl_page .= _gettext('Edit successful.') . ' <br /><hr />';
+  
+    }
                
-                $results = $tc_db->GetAll("SELECT HIGH_PRIORITY `parentid`,`message`,`subject` FROM `" . KU_DBPREFIX . "posts` WHERE `boardid` = " . $board_id . " AND `id` = " . $tc_db->qstr($editpostid) . " ");
+    $results = $tc_db->GetAll("
+      SELECT HIGH_PRIORITY `parentid`,`message`,`subject` 
+        FROM `" . KU_DBPREFIX . "posts` 
+        WHERE `boardid` = " . $board_id . " 
+          AND `id` = " . $tc_db->qstr($editpostid) . " 
+    ");
                
-                foreach ($results as $line) {
-                        $parentid = $line['parentid'];
-                        $message = $line['message'];
-                        $subject = $line['subject'];
-                }
-                if($parentid == 0) { $parentid = $editpostid; }
+    foreach ($results as $line) {
+
+      $parentid = $line['parentid'];
+      $message = $line['message'];
+      $subject = $line['subject'];
+
+    }
+
+    if($parentid == 0) { $parentid = $editpostid; }
                
-                $tpl_page .= '<h2>'. _gettext('Edit post ID: '.$editpostid.' from board: /'.$board.'/') . '</h2><br />';
-                $tpl_page .= '<form action="" method="post">
-                Subject:<br /><input type="text" name="subject" value="'.$subject.'" /><br />
-                HTML:<br /><textarea cols="80" rows="15" name="message">'.$message.'</textarea><input type="hidden" name="thread" value="'.$parentid.'" /><br /><input type="submit" name="edit" value="Edit" /></form>';
-        }
+    $tpl_page .= '<h2>'. _gettext('Edit post ID: '.$editpostid.' from board: /'.$board.'/') . '</h2><br />';
+    $tpl_page .= '
+      <form action="" method="post">
+        Subject:<br /><input type="text" name="subject" value="'.$subject.'" /><br />
+        HTML:<br />
+          <textarea cols="80" rows="15" name="message">'.$message.'</textarea>
+          <input type="hidden" name="thread" value="'.$parentid.'" /><br />
+          <input type="submit" name="edit" value="Edit" />
+      </form>
+    ';
+
+  }
  
 
 
