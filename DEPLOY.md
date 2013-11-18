@@ -2,11 +2,11 @@
 =========================================
 * Ubuntu 12.04
 * Get your shell set up to your liking.
-* Make sure we have the most recent packages.
+## Make sure we have the most recent packages.
 
 	[duchess@dev:~] sudo apt-get update
 
-* Install git!
+## Install git!
 
 	[duchess@dev:~] sudo apt-get install git-core
 
@@ -17,6 +17,7 @@
 * Change perms
 
 	[duchess@dev:www] sudo chown www-data:www-data .
+
 	[duchess@dev:www] sudo chmod g+w .
 
 * Remove index.html.
@@ -30,11 +31,13 @@
 * Log out and log back in.
 
 	[duchess@dev:www] exit
+
 	[duchess@graphene:~] ssh duchess@99dev
 
 * Add your pubkey (id_dsa.pub) to github.
 
 	[duchess@dev:~] ssh-keygen -t dsa
+
 	[duchess@dev:~] cat .ssh/id_dsa.pub
 
 Copy and paste this into your github public keys page.
