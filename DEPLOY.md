@@ -3,6 +3,7 @@
 * Ubuntu 12.04
 * Get your shell set up to your liking.
 * Make sure we have the most recent packages.
+
 	sudo apt-get update
 
 /***
