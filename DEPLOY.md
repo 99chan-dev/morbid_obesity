@@ -4,47 +4,38 @@
 * Get your shell set up to your liking.
 * Make sure we have the most recent packages.
 
-	sudo apt-get update
+	[duchess@dev:~] sudo apt-get update
 
-/***
-  * Install git!
-***/
-sudo apt-get install git-core
+* Install git!
 
-/***
-  * Change to web dir
-***/
-cd /var/www
+	[duchess@dev:~] sudo apt-get install git-core
 
-/***
-  * Change perms
-***/
-sudo chown www-data:www-data .
-sudo chmod g+w .
+* Change to web dir
 
-/***
-  * Remove index.html.
-***/
-sudo rm index.html
+	[duchess@dev:~] cd /var/www
 
-/***
-  * Change your user's primary group to www-data.
-***/
-sudo usermod -g www-data duchess
+* Change perms
 
-/***
-  * Log out and log back in.
-***/
-exit
+	[duchess@dev:www] sudo chown www-data:www-data .
+	[duchess@dev:www] sudo chmod g+w .
 
-ssh duchess@99dev
+* Remove index.html.
 
-/***
-  * Add your pubkey (id_dsa.pub) to github.
-***/
-ssh-keygen -t dsa
+	[duchess@dev:www] sudo rm index.html
 
-cat .ssh/id_dsa.pub
+* Change your user`s primary group to www-data.
+
+	[duchess@dev:www] sudo usermod -g www-data duchess
+
+* Log out and log back in.
+
+	[duchess@dev:www] exit
+	[duchess@graphene:~] ssh duchess@99dev
+
+* Add your pubkey (id_dsa.pub) to github.
+
+	[duchess@dev:~] ssh-keygen -t dsa
+	[duchess@dev:~] cat .ssh/id_dsa.pub
 
 Copy and paste this into your github public keys page.
 
