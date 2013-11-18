@@ -2,19 +2,19 @@
 =========================================
 * Ubuntu 12.04
 * Get your shell set up to your liking.
-## Make sure we have the most recent packages.
+### Make sure we have the most recent packages.
 
 	[duchess@dev:~] sudo apt-get update
 
-## Install git!
+### Install git!
 
 	[duchess@dev:~] sudo apt-get install git-core
 
-* Change to web dir
+### Change to web dir
 
 	[duchess@dev:~] cd /var/www
 
-* Change perms
+### Change perms
 
 	[duchess@dev:www] sudo chown www-data:www-data .
 
