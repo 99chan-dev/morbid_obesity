@@ -2,6 +2,7 @@
 =========================================
 * Ubuntu 12.04
 * Get your shell set up to your liking.
+
 ### Make sure we have the most recent packages.
 
 	[duchess@dev:~] sudo apt-get update
@@ -20,38 +21,36 @@
 
 	[duchess@dev:www] sudo chmod g+w .
 
-* Remove index.html.
+### Remove index.html.
 
 	[duchess@dev:www] sudo rm index.html
 
-* Change your user`s primary group to www-data.
+### Change your user`s primary group to www-data.
 
 	[duchess@dev:www] sudo usermod -g www-data duchess
 
-* Log out and log back in.
+### Log out and log back in.
 
 	[duchess@dev:www] exit
 
 	[duchess@graphene:~] ssh duchess@99dev
 
-* Add your pubkey (id_dsa.pub) to github.
+### Add your pubkey (id_dsa.pub) to github.
 
 	[duchess@dev:~] ssh-keygen -t dsa
 
 	[duchess@dev:~] cat .ssh/id_dsa.pub
 
-Copy and paste this into your github public keys page.
+* Copy and paste this into your github public keys page.
 
-/***
-  * Change directory to /var/www.
-***/
-cd /var/www/
+### Change directory to /var/www.
 
-/***
-  * Set up git.
-***/
-git init
-git remote add origin git@github.com:99chan-dev/morbid_obesity.git
+	[duchess@dev:~] cd /var/www/
+
+### Set up git.
+
+	[duchess@dev:www] git init
+	[duchess@dev:www] git remote add origin git@github.com:99chan-dev/morbid_obesity.git
 
 /***
   * Git your repo.
