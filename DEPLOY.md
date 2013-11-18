@@ -1,24 +1,20 @@
+99chan (development) Deployment Procedure
+=========================================
+* Ubuntu 12.04
 
-99chan (dev) deployment procedure:
+* Get your shell set up to your liking.
 
-*Ubuntu 12.04
+* Make sure we have the most recent packages.
 
-Get your shell set up to your liking.
+	sudo apt-get update
 
-/***
-  * Make sure we have the most recent packages.
-***/
-sudo apt-get update
+* Install git!
 
-/***
-  * Install git!
-***/
-sudo apt-get install git-core
+	sudo apt-get install git-core
 
-/***
-  * Change to web dir
-***/
-cd /var/www
+* Change to web dir
+
+	cd /var/www
 
 /***
   * Change perms
