@@ -67,7 +67,7 @@ gif/
 graybles/
 h/
 #	hbday.jpg
-#	hor/
+hor/
 #	hueheh.gif
 #	hw.jpg
 india/
@@ -91,7 +91,7 @@ men/
 #	meow.txt
 mind/
 #	modlogrss.xml
-#	module_images/
+module_images/
 money/
 mu/
 nat/
@@ -103,7 +103,7 @@ phi/
 #	phpMyAdmin-4.0.5-all-languages.zip
 #	phpMyAdmin-4.0.5-english.zip
 #	phpdenora-1.4.7.430.zip
-#	phpdenora/
+phpdenora/
 #	phpmyadmin/
 pn/
 pol/
@@ -159,6 +159,6 @@ wp/
 wri/
 x/
 y/
-#	youarebanned.jpg
-#	youarenotbanned.jpg
+youarebanned.jpg
+youarenotbanned.jpg
 zom/
