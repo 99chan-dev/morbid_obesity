@@ -27,6 +27,14 @@
 		</ul>{/strip}
 		<br />
 	</div>
+	<!-- Srsly twobutts if you had any idea how wasted I am right now you'd in your father's mouth. Michael Jackson was was less wasted than this when he died. //-->
+	<div align="center">
+		<iframe width="560" height="315" src="//www.youtube.com/embed/H6CviihdQ4Y?autoplay=1" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<!-- I know inline styles are bad practice but I junked I ain't fucking lookin for the fuckin css files right now Fuck you. I decided against the inline styles. Still fuck you. //-->
+	<div class="content" >I'd like for everyone to come into irc and personally thank wharrves for this wonderful video that will autoplay here until the sun explodes and kills us all. I'm fuckin wasted as shit.  I just nodded out. I hope you fucks are wasted ttoo. Wait, no I don't. Don't look at me like that motherfucker I'll total you. You fucking pussy faggot bitch fuckn cunt pussy fuckin bitch. Look at the ground motherfucker. Now give me your shoes. I SAID GIVE ME YOUR SHOES! See you in the showers loverboy. wait, wut fuckin ngr fgt . no fgt ngr. yes disliking Wendy's is now bannable offense. Go get some of them tasty nuggets. Then you prepare your anus. You know what's coming. ANAL UP FAGGOT punk bitch fuckin got a touch of the tar brush fuckin ewok lookin ain't got no fuckin hair on your floppy fuckin fhead fuckin French Canadian fuckin get the fuck out now bring me my fuckin drugs you fuckin jew bastards - duchess</p>
+	</div>
+	<!-- Fuck it, fuckin css. //-->
 {foreach item=entry from=$entries}
 	<div class="content">
 		<h2><span class="newssub">{$entry.subject|stripslashes}{if $dwoo.get.p eq ''} by {if $entry.email neq ''}<a href="mailto:{$entry.email|stripslashes}">{/if}{$entry.poster|stripslashes}{if $entry.email neq ''}</a>{/if} - {$entry.timestamp|date_format:"%D @ %I:%M %p %Z"}{/if}</span>
