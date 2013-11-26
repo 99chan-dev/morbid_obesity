@@ -268,10 +268,10 @@ KU_DBPREFIX . "module` ORDER BY `id` DESC");
 
 		$nameandtripcode = calculateNameAndTripcode($post_name);
 		if (is_array($nameandtripcode)) {
-			$name = $nameandtripcode[0];
+			$name = htmlspecialchars($nameandtripcode[0], ENT_QUOTES);
 			$tripcode = $nameandtripcode[1];
 		} else {
-			$name = $post_name;
+			$name = htmlspecialchars($post_name, ENT_QUOTES);
 			$tripcode = '';
 		}
 
@@ -364,6 +364,9 @@ KU_DBPREFIX . "module` ORDER BY `id` DESC");
 			}
 
 
+			if ($post['email_save']) {
+				setcookie('email', urldecode($post['email']), time() + 31556926, '/', KU_DOMAIN);
+			}
 
 			setcookie('postpassword', urldecode($_POST['postpassword']), time() + 31556926, '/');
 		} else {
@@ -471,7 +474,7 @@ KU_DBPREFIX . "module` ORDER BY `id` DESC");
 	do_redirect(KU_BOARDSPATH . '/' . $board_class->board['name'] . '/');
 	die();
 } elseif (isset($_GET['postoek'])) {
-	$board_class->OekakiHeader($_GET['replyto'], $_GET['postoek']);
+	$board_class->OekakiHeader(intval($_GET['replyto']), intval($_GET['postoek']));
 	die();
 } else {
 	do_redirect(KU_BOARDSPATH . '/' . $board_class->board['name'] . '/');
