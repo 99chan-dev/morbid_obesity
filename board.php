@@ -1,3 +1,4 @@
+<?php include("torcheck.php");?>
 <?php
 /*
  * This file is part of kusaba.
